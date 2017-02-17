@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<title>登陆成功首页</title>
+{{load staticfiles }}
+<link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" type="text/css">
+<link href="{% static 'css/webshop.css' %}" rel="stylesheet" type="text/css">
+</head>
+
+<body class="alert-warning">
+
+<div class="container alert-info logscu">
+<h1>欢迎来到糖糖屋零食有限公司</h1><br>
+<a href="/default/"><button class="btn btn-success btn-lg"><i class="glyphicon glyphicon-arrow-left"></i>我要回到首页购物啦！</button></a>
+</div>
+
+
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+<script src="{% static 'js/webshop.js' %}"></script>
+</body>
+</html>

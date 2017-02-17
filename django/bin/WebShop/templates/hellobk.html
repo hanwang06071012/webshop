@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+{% load staticfiles %}  
+<link rel="stylesheet" href="{% static "css/bootstrap.min.css" %}" type="text/css"/>  
+<script src="{% static "jquery-2.1.4/jquery.js" %}"></script>
+<script src="{% static "js/bootstrap.js" %}"></script>
+<meta charset="utf-8">
+<title>frist page</title>
+</head>
+<body>
+<h1> I am
+{% block mainbod%}
+ {{han}} ,who are 
+{% endblock %}
+you </h1>
+
+<button type="button" class="btn btn-success">hello world!</button>
+{% block img1%}
+{% load staticfiles%}
+<img src="{% static "badanmu.jpg" %}">
+{% endblock %}
+{{hw}}
+</body>
+</html>

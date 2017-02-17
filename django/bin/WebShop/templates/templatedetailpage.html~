@@ -1,0 +1,207 @@
+{% extends "basedetailpage.html" %}
+{% block title %}宝贝详情模板页{% endblock %}
+     	{% block imgone %} 
+      		{% load staticfiles %}
+      		<img src="{% static "xyc1.jpg" %}" width="{{width445px}}" id="mainimg">{% endblock %}
+
+        {% block imgfive %}
+        	{% load staticfiles %}
+          <li><a href="#"><img src="{% static 'xyc1.jpg' %}" height="60px" id="mainimg1"  style=" border-color:#FF9; border-style:solid; border-width:0px;" onClick="mainimg1_change()"  onMouseOver="moveimg1_change()" onMouseOut="outimg1_change()"></a></li>
+
+          <li><a href="#"><img src="{% static 'xyc2.jpg' %}" height="60px" id="mainimg2"  style=" border-color:#FF9; border-style:solid; border-width:0px;" onClick="mainimg2_change()"  onMouseOver="moveimg2_change()" onMouseOut="outimg2_change()"></a></li>
+
+          <li><a href="#"><img src="{% static 'xyc3.jpg' %}" height="60px" id="mainimg3"  style=" border-color:#FF9; border-style:solid; border-width:0px;" onClick="mainimg3_change()"  onMouseOver="moveimg3_change()" onMouseOut="outimg3_change()"></a></li>
+
+          <li><a href="#"><img src="{% static 'xyc4.jpg' %}" height="60px" id="mainimg4"  style=" border-color:#FF9; border-style:solid; border-width:0px;" onClick="mainimg4_change()"  onMouseOver="moveimg4_change()" onMouseOut="outimg4_change()"></a></li>
+
+          <li><a href="#"><img src="{% static 'xyc5.jpg' %}" height="60px" id="mainimg5"  style=" border-color:#FF9; border-style:solid; border-width:0px;" onClick="mainimg5_change()"  onMouseOver="moveimg5_change()" onMouseOut="outimg5_change()"></a></li>
+
+          <li><a href="#"><img src="{% static 'xyc6.jpg' %}" height="60px" id="mainimg6"  style=" border-color:#FF9; border-style:solid; border-width:0px;" onClick="mainimg6_change()"  onMouseOver="moveimg6_change()" onMouseOut="outimg6_change()"></a></li>
+         {% endblock %}
+   
+        {% block shoptitle %}糖糖屋零食大礼包 {% endblock %}
+        {% block shopdnotice %}好吃的零食大礼包，一包里面有很多，三十几样食品，只要你喜欢，送人还是比较高大上的，有礼盒的，包装精美，质量上等是送女孩的礼，可以随时加一点送你心爱的人，欢迎选购，全国包邮，偏远地区除外，详情见商品，谢谢 {% endblock %}
+      
+        {% block price %}&nbsp;&nbsp;$39&nbsp;&nbsp;19.70元/500g{% endblock %}
+        {% block height %}2000g{% endblock %}
+        {% block commentnum %}13{% endblock %} 
+      	{% block scuoftranum %}10{% endblock %}
+      
+		{% block shipintime %}卖家承诺24小时内发货{% endblock %}
+       	{% block inventorynum %}8852{% endblock %}
+
+   		{% block deposit %}10000元{% endblock %}
+      
+        {% block desscores %}5.0{% endblock %}
+        {% block sevscores %}5.0{% endblock %}
+        {% block logisticsscores %}5.0{% endblock %}
+        {% block costscores %}5.0{% endblock %}
+     
+
+{% block seeandsee %}
+          {% load staticfiles %}
+        <li><a href="#"><img src="{% static 'xyc1.jpg' %}" width="65px"></a></li>
+        <li><a href="#"><img src="{% static 'xyc2.jpg' %}" width="65px"></a></li>
+        <li><a href="#"><img src="{% static 'xyc3.jpg' %}" width="65px"></a></li>
+        <li><a href="#"><img src="{% static 'xyc4.jpg' %}" width="65px"></a></li>
+{% endblock %}
+    
+
+  
+{% block highrecommended %}
+      {% load staticfiles %}
+<li><a href="#"><img src="{% static 'xyc1.jpg' %}" width="214"></a></li>
+<li><a href="#"><img src="{% static 'xyc2.jpg' %}" width="214"></a></li>
+<li><a href="#"><img src="{% static 'xyc3.jpg' %}" width="214"></a></li>
+<li><a href="#"><img src="{% static 'xyc4.jpg' %}" width="214"></a></li>
+<li><a href="#"><img src="{% static 'xyc5.jpg' %}" width="214"></a></li>
+{% endblock %}
+     
+ 	  {% block oneweekfeatured %}
+      	{% load staticfiles %}
+<li><a href="#"><img src="{% static 'xyc3.jpg' %}" width="214"></a></li>
+<li><a href="#"><img src="{% static 'xyc5.jpg' %}" width="214"></a></li>
+<li><a href="#"><img src="{% static 'xyc4.jpg' %}" width="214"></a></li>
+<li><a href="#"><img src="{% static 'xyc2.jpg' %}" width="214"></a></li>
+<li><a href="#"><img src="{% static 'xyc1.jpg' %}" width="214"></a></li>
+{% endblock %}
+
+	  {% block htoshop %}
+        {% load staticfiles %}
+<li><a href="#"><img src="{% static 'xyc6.jpg' %}" width="214"></a></li>
+<li><a href="#"><img src="{% static 'xyc4.jpg' %}" width="214"></a></li>
+<li><a href="#"><img src="{% static 'xyc3.jpg' %}" width="214"></a></li>
+<li><a href="#"><img src="{% static 'xyc1.jpg' %}" width="214"></a></li>
+<li><a href="#"><img src="{% static 'xyc2.jpg' %}" width="214"></a></li>
+{% endblock %}
+  
+  
+  
+   
+{% block shopinfo1 %}
+<dt><a href="#">生产许可证编号：QS310855</a></dt>
+<dt><a href="#">厂址: 福建省晋江市罗山街道</a></dt>
+<dt><a href="#">储藏方法: 请置于阴凉干燥处</a></dt>
+<dt><a href="#">净含量: 1350g</a></dt>
+<dt><a href="#">系列: 组合系列</a></dt>
+<dt><a href="#">是否含糖: 含糖</a></dt>
+{% endblock %}
+
+{% block shopinfo2 %}
+<dt><a href="#">产品标准号: GB/T20977</a></dt>
+<dt><a href="#">厂家联系方式: 0595-86771062</a></dt>
+<dt><a href="#">保质期: 300</a></dt>
+<dt><a href="#">包装方式: 包装</a></dt>
+<dt><a href="#">系列: 组合系列</a></dt>
+<dt><a href="#">膨化食品种类: 其他/other</a></dt>
+{% endblock %}
+  
+                  {% block shopinfo3 %}
+<dt><a href="#">厂名: 爱尚(中国)有限公司</a></dt>
+<dt><a href="#">配料表: ego小熊饼干</a></dt>
+<dt><a href="#">食品添加剂: 碳酸氢铵</a></dt>
+<dt><a href="#">品牌: 口水娃</a></dt>
+<dt><a href="#">同城服务: 同城物流送货上门</a></dt>
+<dt><a href="#">省份: 江苏省</a></dt>
+{% endblock %}
+             
+         
+            {% block prodctdate %}2016年03月13日至2016年03月14日
+            {% endblock %}
+           
+          {% block giveback %}<a href="#">{% load staticfiles %}<img src="{% static 'fanxian.jpg' %}" width="720px"></a>{% endblock %}
+          
+          
+            {% block mainmap %}
+            {% load staticfiles %}
+          <li><a href="#"><img src="{% static 'xyc1.jpg' %}" width="720"></a></li>
+          <li><a href="#"><img src="{% static 'xyc2.jpg' %}" width="720"></a></li>
+          <li><a href="#"><img src="{% static 'xyc3.jpg' %}" width="720"></a></li>
+          <li><a href="#"><img src="{% static 'xyc4.jpg' %}" width="720"></a></li>
+          <li><a href="#"><img src="{% static 'xyc5.jpg' %}" width="720"></a></li>
+{% endblock %}
+         
+        
+              
+                        {% block trafast %}(58) {% endblock %}
+     					{% block solid %}(48) {% endblock %}
+                       	{% block goodquality %}(38) {% endblock %}
+                       	{% block crowd %}(128) {% endblock %}
+                     	{% block goodserver %}(858) {% endblock %}
+                        {% block tasty %}(258) {% endblock %}
+                        {% block quality  %}(358) {% endblock %}
+                        {% block tastegood %}(558) {% endblock %}                     
+                 		{% block quaingen %}(587) {% endblock %}
+						{% block samllsize %}(761) {% endblock %}
+                   
+                 
+                 
+						{% block comment1 %}零食挺多的，相当实惠，第二次购买，感觉挺不错，值得购买{% endblock %}
+                    
+{% block comimg1 %}
+{% load staticfiles %}
+<li><img src="{% static 'xyc1.jpg' %}" width="50"></li>
+<li><img src="{% static 'xyc2.jpg' %}" width="50"></li>
+<li><img src="{% static 'xyc5.jpg' %}" width="50"></li>
+<li><img src="{% static 'xyc6.jpg' %}" width="50"></li>
+<li><img src="{% static 'xyc3.jpg' %}" width="50"></li>
+{% endblock %}
+                        
+                              {% block comdate1 %}2016年03月13日{% endblock %}
+                               {% block comment2 %}一箱零食真好，够我吃挺久的了，而且多种多样，量虽然不是太足，但是对于这个价格来说也都已经算是优惠了啦，下次有机会还来光顾哈！值得购买{% endblock %}
+                          
+                           
+                              {% block comimg2 %}
+                            {% load staticfiles %}
+<li><img src="{% static 'xyc1.jpg' %}" width="50"></li>
+<li><img src="{% static 'xyc2.jpg' %}" width="50"></li>
+<li><img src="{% static 'xyc5.jpg' %}" width="50"></li>
+<li><img src="{% static 'xyc6.jpg' %}" width="50"></li>
+<li><img src="{% static 'xyc3.jpg' %}" width="50"></li>
+{% endblock %}
+{% block comdate2 %}2016年03月13日{% endblock %}
+  
+  
+  
+  {% block comnet3%}本来打开吓一跳满满一箱子！但仔细吧啦吧啦后发现果然和很多买家说的都是市面上5毛两包的东西。纯粹为了这天寒地冻的快递小哥还给送到门口的份上给个五分好评吧！{% endblock %}
+  
+  {% block comimg3 %}
+  {% load staticfiles %}
+<li><img src="{% static 'xyc1.jpg' %}" width="50"></li>
+<li><img src="{% static 'xyc2.jpg' %}" width="50"></li>
+<li><img src="{% static 'xyc5.jpg' %}" width="50"></li>
+<li><img src="{% static 'xyc6.jpg' %}" width="50"></li>
+<li><img src="{% static 'xyc3.jpg' %}" width="50"></li>
+{% endblock %}
+                           
+                              {% block comdate3 %}2016年03月13日{% endblock %}
+                     
+   
+                  {% block soldofservice %}
+                  {% load staticfiles %}
+<li><a href="#"><img src="{% static 'xyc1.jpg' %}" width="215"></a></li>
+<li><a href="#"><img src="{% static 'xyc2.jpg' %}" width="215"></a></li>
+<li><a href="#"><img src="{% static 'xyc4.jpg' %}" width="215"></a></li>
+<li><a href="#"><img src="{% static 'xyc3.jpg' %}" width="215"></a></li>
+<li><a href="#"><img src="{% static 'xyc6.jpg' %}" width="215" ></a></li>
+{% endblock %}
+                
+          
+                    
+                  {% block anser %}
+                  {% load staticfiles %}
+<li><a href="#"><img src="{% static 'xyc2.jpg' %}" width="215"></a></li>
+<li><a href="#"><img src="{% static 'xyc3.jpg' %}" width="215"></a></li>
+<li><a href="#"><img src="{% static 'xyc5.jpg' %}" width="215"></a></li>
+<li><a href="#"><img src="{% static 'xyc4.jpg' %}" width="215"></a></li>
+<li><a href="#"><img src="{% static 'xyc1.jpg' %}" width="215"></a></li>
+{% endblock %}
+
+            {% block exclservice %}
+            {% load staticfiles %}
+<li><a href="#"><img src="{% static 'xyc3.jpg' %}" width="720"></a></li>
+<li><a href="#"><img src="{% static 'xyc4.jpg' %}" width="720"></a></li>
+<li><a href="#"><img src="{% static 'xyc1.jpg' %}" width="720"></a></li>
+<li><a href="#"><img src="{% static 'xyc5.jpg' %}" width="720"></a></li>
+<li><a href="#"><img src="{% static 'xyc2.jpg' %}" width="720"></a></li>
+{% endblock %} 

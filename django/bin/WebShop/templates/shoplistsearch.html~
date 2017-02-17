@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>订单查询页</title>
+{% load staticfiles %}
+<link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" type="text/css">
+<link href="{% static 'css/webshop.css' %}" rel="stylesheet" type="text/css">
+</head>
+
+<body class="alert-warning">
+<div class="container">
+	<table class="table table-bordered  alert-danger">
+    	<caption class="text-center"><h1><strong>订单列表</strong></h1></caption>
+    	<thead>
+        	<tr>
+            	<th>订单编号</th>
+                <th>收件人姓名</th>
+                <th>邮政编码</th>
+                <th>手机号</th>
+                <th>运送方式</th>
+                <th>运费</th>
+                <th>商品名称</th>
+                <th>商品价格</th>
+                <th>商品数量</th>
+                <th>保险费</th>
+                <th>优惠券额度</th>
+                <th>订单总价</th>
+            </tr>
+        </thead>
+        <tbody>
+        	<tr>
+            	<td>{{shoplistno}}</td>
+                <td>{{setname}}</td>
+                <td>{{zipcode}}</td>
+                <td>{{phoneno}}</td>
+                <td>{{deliveway}}</td>
+                <td>{{expressdeliveprice}}</td>
+                <td>{{comname}}</td>
+                <td>{{comprice}}</td>
+                <td>{{comnum}}</td>
+                <td>{{shipinsurancevalue}}</td>
+                <td>{{couponprice}}</td>
+                <td>{{shiplistprice}}</td>
+            </tr>
+            <tr>
+            	<td>收件人地址</td>
+                <td colspan="11">{{addrname}}</td>
+            </tr>
+            <tr>
+            	<td>客户留言</td>
+                <td colspan="11">{{wordstoboss}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+
+<!--引入js文件-->
+<script src="{% static 'jquery-2.1.4/jquery.min.js' %}"></script>
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+<script src="{% static 'js/webshop.js' %}"></script>
+</body>
+</html>

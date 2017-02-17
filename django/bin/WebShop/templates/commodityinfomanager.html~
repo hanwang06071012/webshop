@@ -1,0 +1,604 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>商品信息管理系统</title>
+{% load staticfiles %}
+<link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" type="text/css">
+</head>
+<body class="btn-info">
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div class="container btn-warning">
+<div>&nbsp;&nbsp;</div>
+ <!-- <h1 class=" btn btn-group-lg btn-default col-xs-offset-5">商品信息管理系统</h1>-->
+
+   <!--========================================================商品信息与用户信息管理选项卡区==================================================-->
+  <div class="container">
+	 <ul class="nav nav-pills text-center">
+      <li class="active"><a href="#tab0" class="btn btn-success" data-toggle="tab"><h1>商品信息管理系统</h1></a></li>
+	  <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+      <li><a href="#tab20" class="btn btn-success" data-toggle="tab"><h1>用户信息管理系统</h1></a></li>
+	  <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+	  <li><a href="#tab30" class="btn btn-success" data-toggle="tab"><h1>订单信息管理系统</h1></a></li>
+    </ul>
+	<div class="tab-content"> 
+  <!--==========================================================商品信息管理选项卡区========================================================-->
+  <div id="tab0" class="tab-pane active" style="margin-top:30px;">
+    <ul class="nav nav-pills">
+      <li class="active"><a href="#tab1" data-toggle="tab">查询商品</a></li>
+      <li><a href="#tab2" data-toggle="tab">增加商品</a></li>
+      <li><a href="#tab3" data-toggle="tab">修改商品</a></li>
+      <li><a href="#tab4" data-toggle="tab">删除商品</a></li>
+    </ul>
+    <div class="tab-content"> 
+      <!--=====================================================商品的查询模块===========================================================-->
+      <div class="tab-pane active" id="tab1">
+        <div class="alert-info" style="margin:30px; padding:30px">
+          <form class="form-horizontal" role="form" action="/commoditysearch/" method="get">
+            <!--商品编码-->
+            <div class="form-group">
+              <label for="shopencoding" class="col-sm-2 control-label">商品编码</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="shopencoding" 
+         placeholder="请输入八位数字商品编码，如12345678" name="commodityencoding">
+              </div>
+            </div>
+            <!--提交查询按钮-->
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-info col-xs-offset-4">提交查询</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!--============================================商品录入增加模块=================================================================-->
+      <div class="tab-pane" id="tab2">
+        <div class=" alert-success" style="margin:30px; padding:30px">
+          <form class="form-horizontal" role="form" action="/commodityadd/" method="get">
+	   <!--商品编码-->
+            <div class="form-group">
+              <label for="shopencoding" class="col-sm-2 control-label">商品编码</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="shopencoding" 
+         placeholder="请输入八位数字商品唯一标识码（必填），如12345678" name="commodityencoding">
+              </div>
+            </div>            
+	   <!--页面名称-->
+            <div class="form-group">
+              <label for="pagetitle" class="col-sm-2 control-label">页面名称</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="pagetitle" 
+            placeholder="请输入页面名称，如肉松饼详情页面" name="shoppagetitle">
+              </div>
+            </div>
+         
+            <!--商品名称-->
+            <div class="form-group">
+              <label for="title" class="col-sm-2 control-label">商品名称</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="title" 
+            placeholder="商品名称，如肉松饼" name="shoptitle">
+              </div>
+            </div>
+            <!--商品简介-->
+            <div class="form-group">
+              <label for="titledetail" class="col-sm-2 control-label">商品简介</label>
+              <div class="col-sm-10">
+                <textarea class="form-control" rows="3" id="titledetail" placeholder="请输入商品简介，150字以内，如好吃的友臣肉松饼，黄金营养......等等" name="shoptitledetail"></textarea>
+              </div>
+            </div>
+            <!--商品价格-->
+            <div class="form-group">
+              <label for="shopprice" class="col-sm-2 control-label">商品价格</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="shopprice" 
+         placeholder="请输入品单价，默认元,如28" name="price">
+              </div>
+            </div>
+            <!--商品单价-->
+            <div class="form-group">
+              <label for="shoppricep" class="col-sm-2 control-label">商品单价</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="shoppricep" 
+         placeholder="请输入品单价，默认元,如28" name="pricep">
+              </div>
+            </div>
+            <!--商品单量-->
+            <div class="form-group">
+              <label for="shoppriceph" class="col-sm-2 control-label">商品单量</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="shoppriceph" 
+         placeholder="请输入商品单位如是，默认上500g，一般填写500" name="priceph">
+              </div>
+            </div>
+            <!--商品重量-->
+            <div class="form-group">
+              <label for="shopheight" class="col-sm-2 control-label">商品重量</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="shopheight" 
+         placeholder="请输入商品重量，默认单位g,如3000" name="height">
+              </div>
+            </div>
+            <!--卖家发货承诺-->
+            <div class="form-group">
+              <label for="intime" class="col-sm-2 control-label">卖家承诺</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="intime" 
+         placeholder="请输入简短的卖家承诺，如24小时之内发货" name="shipintime">
+              </div>
+            </div>
+	  <!--库存数量-->
+            <div class="form-group">
+              <label for="commodityinventorynum" class="col-sm-2 control-label">库存数量</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="commodityinventorynum" 
+         placeholder="请输入商品库存数量，默认单位件,如3000" name="inventorynum">
+              </div>
+            </div>
+            <!--提交增加按钮-->
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-success col-xs-offset-4">商品录入</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!--=================================================商品提交修改模块================================================================-->
+      <div class="tab-pane" id="tab3">
+        <div class=" alert-warning" style="margin:30px; padding:30px">
+          <form class="form-horizontal" role="form" action="/commodityalter/" method="get">
+          
+            <!--商品编码-->
+            <div class="form-group">
+              <label for="shopencoding" class="col-sm-2 control-label">商品编码</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="shopencoding" 
+         placeholder="请输入八位数字商品唯一标识码（必填），如12345678" name="commodityencoding">
+              </div>
+            </div>
+ 	    <!--页面名称-->
+            <div class="form-group">
+              <label for="pagetitle" class="col-sm-2 control-label">页面名称</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="pagetitle" 
+            placeholder="请输入页面名称，如肉松饼详情页面" name="shoppagetitle">
+              </div>
+            </div>
+            <!--商品名称-->
+            <div class="form-group">
+              <label for="title" class="col-sm-2 control-label">商品名称</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="title" 
+            placeholder="商品名称，如肉松饼" name="shoptitle">
+              </div>
+            </div>
+            <!--商品简介-->
+            <div class="form-group">
+              <label for="titledetail" class="col-sm-2 control-label">商品简介</label>
+              <div class="col-sm-10">
+                <textarea class="form-control" rows="3" id="titledetail" placeholder="请输入商品简介，150字以内，如好吃的友臣肉松饼，黄金营养......等等" name="shoptitledetail"></textarea>
+              </div>
+            </div>
+            <!--商品价格-->
+            <div class="form-group">
+              <label for="shopprice" class="col-sm-2 control-label">商品价格</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="shopprice" 
+         placeholder="请输入品单价，默认元,如28" name="price">
+              </div>
+            </div>
+            <!--商品单价-->
+            <div class="form-group">
+              <label for="shoppricep" class="col-sm-2 control-label">商品单价</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="shoppricep" 
+         placeholder="请输入品单价，默认元,如28" name="pricep">
+              </div>
+            </div>
+            <!--商品单量-->
+            <div class="form-group">
+              <label for="shoppriceph" class="col-sm-2 control-label">商品单量</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="shoppriceph" 
+         placeholder="请输入商品单位如是，默认上500g，一般填写500" name="priceph">
+              </div>
+            </div>
+            <!--商品重量-->
+            <div class="form-group">
+              <label for="shopheight" class="col-sm-2 control-label">商品重量</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="shopheight" 
+         placeholder="请输入商品重量，默认单位g,如3000" name="height">
+              </div>
+            </div>
+            <!--卖家发货承诺-->
+            <div class="form-group">
+              <label for="intime" class="col-sm-2 control-label">卖家承诺</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="intime" 
+         placeholder="请输入简短的卖家承诺，如24小时之内发货" name="shipintime">
+              </div>
+            </div>
+            <!--商品提交修改确认按钮-->
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-warning col-xs-offset-4">提交修改</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!--============================================================商品删除模块============================================================-->
+      <div class="tab-pane" id="tab4">
+        <div class=" alert-danger" style="margin:30px; padding:30px">
+          <form class="form-horizontal" role="form" action="/commoditydel/" method="get">
+            <!--商品编码-->
+            <div class="form-group">
+              <label for="shopencoding" class="col-sm-2 control-label">商品编码</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="shopencoding" 
+         placeholder="请输入八位数字商品唯一标识码（必填），如12345678" name="commodityencoding">
+              </div>
+            </div>
+    
+            <!--商品提交删除模板-->
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-danger col-xs-offset-4">确认删除宝贝</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--=========================================================================用户信息管理选项卡区===========================================================-->
+ <div id="tab20" class="tab-pane" style="margin-top:30px;">
+    <ul class="nav nav-pills">
+      <li class="active"><a href="#tab21" data-toggle="tab">用户信息查询</a></li>
+      <li><a href="#tab22" data-toggle="tab">增加注册用户</a></li>
+      <li><a href="#tab23" data-toggle="tab">修改用户名</a></li>
+      <li><a href="#tab24" data-toggle="tab">用户充值</a></li>
+	  <li><a href="#tab25" data-toggle="tab">初始化密码</a></li>
+	  <li><a href="#tab26" data-toggle="tab">冻结用户</a></li>
+	  <li><a href="#tab27" data-toggle="tab">解冻用户</a></li>
+    </ul>
+    <div class="tab-content"> 
+      <!--=====================================================用户信息查询模块===========================================================-->
+      <div class="tab-pane active" id="tab21">
+        <div class="alert-info" style="margin:30px; padding:30px">
+          <form class="form-horizontal" role="form" action="/usersearch/" method="get">
+            <!--用户邮箱编码-->
+            <div class="form-group">
+              <label for="mailuser" class="col-sm-2 control-label">用户注册邮箱</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="mailuser" 
+         placeholder="请正确输入用户注册邮箱" name="usermail">
+              </div>
+            </div>
+            <!--提交查询按钮-->
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-info col-xs-offset-4">提交查询</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!--===========================================增加注册用户模块=================================================================-->
+      <div class="tab-pane" id="tab22">
+        <div class=" alert-success" style="margin:30px; padding:30px">
+          <form class="form-horizontal" role="form" action="/useradd/" method="get">
+		<!--输入注册邮箱-->
+            <div class="form-group">
+              <label for="mailuser" class="col-sm-2 control-label">注册邮箱</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="mailuser" placeholder="请输入注册邮箱，唯一识别邮箱，一经注册，不可更改" name="usermail">
+              </div>
+            </div>
+
+	   <!--用户名-->
+            <div class="form-group">
+              <label for="nameuser" class="col-sm-2 control-label">用户名</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="nameuser" 
+         placeholder="请输入注册用户名，可以为字母，数字，下划线，但不能以数字和下划线开头" name="username">
+              </div>
+            </div>            
+	   <!--用户第一次输入注册密码-->
+            <div class="form-group">
+              <label for="pwdfirst" class="col-sm-2 control-label">密码</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="pwdfirst" 
+            placeholder="请输入用户注册密码" name="firstpwd">
+              </div>
+            </div>
+         
+            <!--用户第二次输入注册密码-->
+            <div class="form-group">
+              <label for="pwdsecond" class="col-sm-2 control-label">确认密码</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="pwdsecond" 
+            placeholder="请再次输入确认密码" name="secondpwd">
+              </div>
+            </div>
+         
+            <!--提交增加按钮-->
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-success col-xs-offset-4">商品录入</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!--=================================================用户名称修改模块================================================================-->
+      <div class="tab-pane" id="tab23">
+        <div class=" alert-warning" style="margin:30px; padding:30px">
+          <form class="form-horizontal" role="form" action="/usernamechange/" method="get">
+          
+            <!--注册邮箱-->
+            <div class="form-group">
+              <label for="mailuser" class="col-sm-2 control-label">注册邮箱</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="mailuser" 
+         placeholder="请输入注册邮箱" name="usermail">
+              </div>
+            </div>
+ 	    <!--输入新用户名-->
+            <div class="form-group">
+              <label for="nameuser" class="col-sm-2 control-label">新用户名</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="nameuser" 
+            placeholder="请输入新用户名" name="username">
+              </div>
+            </div>
+		 <!--商品提交删除模板-->
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-danger col-xs-offset-4">修改用户名</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+  <!--=================================================用户充值模块================================================================-->
+      <div class="tab-pane" id="tab24">
+        <div class=" alert-warning" style="margin:30px; padding:30px">
+          <form class="form-horizontal" role="form" action="/usermonenychange/" method="get">
+          
+            <!--注册邮箱-->
+            <div class="form-group">
+              <label for="mailuser" class="col-sm-2 control-label">注册邮箱</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="mailuser" 
+         placeholder="请输入注册邮箱" name="usermail">
+              </div>
+            </div>
+ 	    <!--输入用户充值金额-->
+            <div class="form-group">
+              <label for="monenyuser" class="col-sm-2 control-label">充值金额</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="monenyuser" 
+            placeholder="请输入用户充值金额" name="usermoneny">
+              </div>
+            </div>
+		 <!--商品提交删除模板-->
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-warning col-xs-offset-4">确认充值</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+	 <!--=================================================初始化用户密码模块================================================================-->
+      <div class="tab-pane" id="tab25">
+        <div class=" alert-warning" style="margin:30px; padding:30px">
+          <form class="form-horizontal" role="form" action="/inituserpwd/" method="get">
+          
+            <!--注册邮箱-->
+            <div class="form-group">
+              <label for="mailuser" class="col-sm-2 control-label">注册邮箱</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="mailuser" 
+         placeholder="请输入注册邮箱,用户的初始化密码是123456" name="usermail">
+              </div>
+            </div>
+		 <!--商品提交删除模板-->
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-warning col-xs-offset-4">初始化密码</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+	 <!--=================================================冻结用户模块================================================================-->
+      <div class="tab-pane" id="tab26">
+        <div class=" alert-warning" style="margin:30px; padding:30px">
+          <form class="form-horizontal" role="form" action="/freezeuser/" method="get">
+          
+            <!--注册邮箱-->
+            <div class="form-group">
+              <label for="mailuser" class="col-sm-2 control-label">注册邮箱</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="mailuser" 
+         placeholder="请输入注册邮箱" name="usermail">
+              </div>
+            </div>
+		 <!--商品提交删除模板-->
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-danger col-xs-offset-4">冻结用户</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+     <!--=================================================解冻用户模块================================================================-->
+      <div class="tab-pane" id="tab27">
+        <div class=" alert-warning" style="margin:30px; padding:30px">
+          <form class="form-horizontal" role="form" action="/thawuser/" method="get">
+          
+            <!--注册邮箱-->
+            <div class="form-group">
+              <label for="mailuser" class="col-sm-2 control-label">注册邮箱</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="mailuser" 
+         placeholder="请输入注册邮箱" name="usermail">
+              </div>
+            </div>
+		 <!--商品提交删除模板-->
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-danger col-xs-offset-4">解冻用户</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+<!--==================================用户信息管理结果符======================================-->
+    </div>
+  </div>
+
+<!--==========================================================订单信息管理选项卡区========================================================-->
+  <div id="tab30" class="tab-pane" style="margin-top:30px;">
+    <ul class="nav nav-pills">
+      <li class="active"><a href="#tab31" data-toggle="tab">订单查询</a></li>
+      <li><a href="#tab32" data-toggle="tab">订单修改</a></li>
+      <li><a href="#tab33" data-toggle="tab">订单冻结</a></li>
+      <li><a href="#tab34" data-toggle="tab">订单解冻</a></li>
+    </ul>
+    <div class="tab-content"> 
+      <!--=====================================================订单查询模块===========================================================-->
+      <div class="tab-pane active" id="tab31">
+        <div class="alert-info" style="margin:30px; padding:30px">
+          <form class="form-horizontal" role="form" action="/shoplistsearch/" method="get">
+            <!--订单编号-->
+            <div class="form-group">
+              <label for="encodingshoplist" class="col-sm-2 control-label">订单编号</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="encodingshoplist" 
+         placeholder="请输入您的订单编号" name="shoplistencoding">
+              </div>
+            </div>
+            <!--提交查询按钮-->
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-info col-xs-offset-4">提交查询</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+   <!--=====================================================订单修改模块===========================================================-->
+      <div class="tab-pane" id="tab32">
+        <div class="alert-info" style="margin:30px; padding:30px">
+          <form class="form-horizontal" role="form" action="/shoplistchange/" method="get">
+            <!--订单编号-->
+            <div class="form-group">
+              <label for="noshoplist" class="col-sm-2 control-label">订单编号</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="noshoplist" 
+         placeholder="请输入您的订单编号" name="shoplistno">
+              </div>
+            </div>
+ 		<!--收件人修改-->
+            <div class="form-group">
+              <label for="nameset" class="col-sm-2 control-label">收件人</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="nameset" 
+         placeholder="请输入您的订单编号" name="setname">
+              </div>
+            </div>
+		  <!--收件地址-->
+            <div class="form-group">
+              <label for="nameaddr" class="col-sm-2 control-label">收件地址</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="nameaddr" 
+         placeholder="请输入您的订单编号" name="addrname">
+              </div>
+            </div>
+		  <!--邮政编码-->
+            <div class="form-group">
+              <label for="codezip" class="col-sm-2 control-label">邮政编码</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="codezip" 
+         placeholder="请输入您的订单编号" name="zipcode">
+              </div>
+            </div>
+		   <!--收件人电话-->
+            <div class="form-group">
+              <label for="nophone" class="col-sm-2 control-label">收件人电话</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="nophone" 
+         placeholder="请输入您的订单编号" name="phoneno">
+              </div>
+            </div>
+            <!--提交查询按钮-->
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-info col-xs-offset-4">提交查询</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+<!--=====================================================订单冻结模块===========================================================-->
+      <div class="tab-pane" id="tab33">
+        <div class="alert-info" style="margin:30px; padding:30px">
+          <form class="form-horizontal" role="form" action="/shoplistfreeze/" method="get">
+            <!--订单编号-->
+            <div class="form-group">
+              <label for="encodingshoplist" class="col-sm-2 control-label">订单编号</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="encodingshoplist" 
+         placeholder="请输入您的订单编号" name="shoplistencoding">
+              </div>
+            </div>
+            <!--提交查询按钮-->
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-info col-xs-offset-4">冻结订单</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+<!--=====================================================订单解冻模块===========================================================-->
+      <div class="tab-pane" id="tab34">
+        <div class="alert-info" style="margin:30px; padding:30px">
+          <form class="form-horizontal" role="form" action="/shoplistthaw/" method="get">
+            <!--订单编号-->
+            <div class="form-group">
+              <label for="encodingshoplist" class="col-sm-2 control-label">订单编号</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="encodingshoplist" 
+         placeholder="请输入您的订单编号" name="shoplistencoding">
+              </div>
+            </div>
+            <!--提交查询按钮-->
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-info col-xs-offset-4">解冻订单</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+<!--==================================订单信息管理结果符======================================-->
+    </div>
+  </div>
+<!--=================================信息管理系统结果符=======================================-->
+</div>
+</div>
+</div>
+<!--=================================引入js文件=============================================-->
+<script src="{% static 'jquery-2.1.4/jquery.min.js' %}"></script> 
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+</body>
+</html>

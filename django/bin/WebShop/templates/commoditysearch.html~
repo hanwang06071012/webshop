@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<title>商品查询页</title>
+{% load staticfiles %}
+<link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<table class="table table-hover">
+   <caption></caption>
+   <thead>
+      <tr>
+         <th class="col-lg-1">商品属性</th>
+         <th>属性值</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr class="alert-danger">
+         <td>商品编码</td>
+         <td>{{commodityencoding}}</td>
+      </tr>
+      <tr>
+         <td>页面名称</td>
+         <td>{{shoppagetitle}}</td>
+      </tr>
+      <tr>
+         <td>商品名称</td>
+         <td>{{shoptitle}}</td>
+      </tr>
+       <tr>
+         <td>商品简介</td>
+         <td>{{shoptitledetail}}</td>
+      </tr>
+  	  <tr>
+         <td>商品价价(元)</td>
+         <td>{{price}}</td>
+      </tr>
+       <tr>
+         <td>商品单价(元/500g)</td>
+         <td>{{pricep}}</td>
+      </tr>
+       <tr>
+         <td>商品单量(g)</td>
+         <td>{{priceph}}</td>
+      </tr>
+       <tr>
+         <td>商品重量(g)</td>
+         <td>{{height}}</td>
+      </tr>
+       <tr>
+         <td>商品评论(条)</td>
+         <td>{{commentnum}}</td>
+      </tr>
+       <tr>
+         <td>成功交易量(笔)</td>
+         <td>{{scuoftranum}}</td>
+      </tr> <tr>
+         <td>卖家承诺</td>
+         <td>{{shipintime}}</td>
+	  </tr>
+       <tr>
+         <td>库存数量(个)</td>
+         <td>{{inventorynum}}</td>
+      </tr>
+       <tr>
+         <td>消费金(元)</td>
+         <td>{{deposit}}</td>
+      </tr>
+        <tr>
+         <td>描述评分</td>
+         <td>{{desscores}}</td>
+      </tr>
+        <tr>
+         <td>服务评分</td>
+         <td>{{sevscores}}</td>
+      </tr>
+        <tr>
+         <td>物流评分</td>
+         <td>{{logisticsscores}}</td>
+      </tr>
+        <tr>
+         <td>性价比评分</td>
+         <td>{{costscores}}</td>
+      </tr>
+      
+   </tbody>
+</table>			                  
+<script src="{% static 'jquery-2.1.4/jquery.js' %}"></script>
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+</body>
+</html>

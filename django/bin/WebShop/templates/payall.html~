@@ -1,0 +1,218 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>结算页</title>
+{% load staticfiles %}
+<link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" type="text/css">
+<link href="{% static 'css/webshop.css' %}" rel="stylesheet" type="text/css">
+</head>
+</head>
+
+<body class="alert-warning">
+<!--导航栏-->
+<nav class="navbar navbar-default" style="margin:0px" role="navigation">
+  <div class="navbar-header"> <a class="navbar-brand" href="/default/">首页有惊喜</a> </div>
+  <div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="/comall/">所有宝贝</a></li>
+      <li><a href="/comfrist/">新品首发</a></li>
+      <li><a href="/comcomein/">进口精选</a></li>
+      <li><a href="/comdown/">镇店之宝</a></li>
+      <li><a href="/comjapan/">日本尖货</a></li>
+      <li><a href="/comcri/">韩国风情</a></li>
+      <li><a href="/comamrican/">欧美精品</a></li>
+	<li><a href="/comaus/">澳洲天然</a></li>
+	<li><a href="/comsouais/">东南亚口味</a></li>
+      <li><a href="/hat/">港澳台</a></li>
+      <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> 大陆荟萃 <b class="caret"></b> </a>
+        <ul class="dropdown-menu">
+          <li class="divider"></li>
+          <li><a href="/testes/">东南风味</a></li>
+          <li class="divider"></li>
+          <li><a href="/testws/">西南风味</a></li>
+          <li class="divider"></li>
+          <li><a href="/testcenter/">中原风味</a></li>
+          <li class="divider"></li>
+          <li><a href="/testwn/">西北风味</a></li>
+          <li class="divider"></li>
+          <li><a href="/testen/">东北风味</a></li>
+        </ul>
+      </li>
+      <!--寻找礼物的表单-->
+      <li>
+        <form class="navbar-form navbar-left" role="search">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="送女朋友">
+          </div>
+          <button type="submit" class="btn btn-default">找礼物</button>
+        </form>
+      </li>
+      </li>
+</ul>
+      <!--导航页的最右边登陆和注册按钮-->
+<div class="pull-right" style="margin:7px">
+      <a href="/login/">
+        <button class=" btn btn-success">我要登陆</button>
+      </a>
+</div>
+<div class="pull-right" style="margin:7px">
+      <a href="/register/">
+        <button class=" btn btn-warning">成为会员</button>
+      </a>
+</div>
+  </div>
+</nav>
+<!--购买单品信息列表-->
+<div class="container">
+<form role="form" action="/payover/" method="get">
+  <caption>
+  <h1>请正确输入收货信息</h1>
+  </caption>
+  <div class="form-group">
+    <label for="addrname">收货地址:</label>
+    <input type="text" class="form-control"  name="addrname" id='addrnameid' onchange="syncinfo()" placeholder="请输入收货地址，越详细越好，如xxx省xxx市xxx县xxx镇xxx街道xxx号">
+  </div>
+  <div class="form-group">
+    <label for="setname">收货人:</label>
+    <input type="text" class="form-control" name="setname" id='setnameid' onchange="syncinfo()" placeholder="请输入收货人姓名，如王静">
+  </div>
+  <div class="form-group">
+    <label for="zipcode">邮政编码:</label>
+    <input type="text" class="form-control" name="zipcode" placeholder="请输入邮编，不确认请输入000000">
+  </div>
+  <div class="form-group">
+    <label for="phoneno">电话号码:</label>
+    <input type="text" class="form-control" name="phoneno"  id='phonenoid' onchange="syncinfo()" placeholder="请正确输入联系方式，多个联系方式逗号隔开，如：18645625236，05617963222">
+  </div>
+  </div>
+  </div>
+  <div class="container">
+  <caption>
+  购买清单列表
+  </caption>
+  <table class="table table-bordered" style="margin-bottom:0px">
+    <thead>
+      <tr>
+		<th class="col-lg-2">订单编号</th>
+        <th class="col-lg-1">商品编码</th>
+		<th class="col-lg-3">商品信息</th>
+        <th class="col-lg-1">单价(元)</th>
+        <th class="col-lg-1">数量</th>
+        <th class="col-lg-1">金额</th>
+        <th class="col-lg-2">操作</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="alert-info">
+		<td id="shoplistencode">{{shoplistencode}}</td>
+        <td id="codecom">{{comcode}}</td>
+		<td>{{comname}}</td>
+        <td>{{comprice}}</td>
+        <td id="numcom">{{comnum}}</td>
+        <td id="pricecomto">{{comtotprice}}</td>
+        <td><span>移入收藏夹</span><br></td>
+      </tr>
+    </tbody>
+  </table>
+  <table class="table alert-info" style="margin:0px">
+    <tbody>
+      <tr>
+        <td class="col-lg-6">给卖家留言：
+          <textarea rows="2" name="wordstoboss"></textarea></td>
+        <td class="col-lg-4"><input type="radio" class=" text-right">
+          配送方式<lable id="labdeway">普通快递6.00</label></td>
+        <td class="col-lg-2"><select class="form-control" id="deway" name="deliveway">
+            <option>普通快递6元</option>
+            <option>顺丰快递22元</option>
+            <option>极速隔夜达42元</option>
+          </select></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>卖家承诺：付款后16小时内发货</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>运费险:
+          <input type="checkbox" id='shipinsurance' value='0.2' onClick="fushipinsurance()">
+          购买运费险0.2元，退货可赔付运费</td>
+        <td>￥9</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>店铺合计(含运费)</td>
+        <td id="conexpprice">￥18</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><input type="checkbox" id='couponuse' onClick="couponshowandhidden()">
+          使用优惠券</td>
+        <td id='couponprice'>￥0.00</td>
+      </tr>
+	<tr id='coupon'>
+		<td>卡号:<input type="text"></td>
+		<td>密码:<input type="text"></td>
+		<td><a href="#" class='btn btn-info'>使用优惠券</a></td>
+	</tr>
+      <tr>
+        <td></td>
+        <td> <p>实付款:</p>
+          <p>寄送至：<span id="nameaddrid">安徽省淮北市濉溪县双堆镇李湖村杨庄安徽省淮北市濉溪县双堆镇李湖村杨庄</span></p>
+          <p>收货人：<span id='namesetid'>王海鹏</span> <span id='nophoneid'>13813668355</span></p>
+          </td>
+        <td id='payprice'>￥18.80</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  <div>&nbsp;</div>
+	<select class="form-control hidden" id="priceaddstr" name="addpricestr"></select>
+  <div class=" container form-group">
+  	<a href="/default/"><i class=" glyphicon glyphicon-arrow-left"></i>返回首页</a>
+  	<input type="submit" class="btn btn-danger pull-right" value="提交付款">
+  </div>
+</form>
+</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+
+<!--底部导航栏-->
+<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+  <div class="navbar-header"> <a class="navbar-brand" href="#">糖糖屋零食物语有限公司</a> </div>
+  <div>
+    <ul class="nav navbar-nav">
+      <li><a href="/compationdes/">公司简介</a></li>
+      <li><a href="/cendes/">资质证明</a></li>
+      <li class="active"><a href="#">掌柜</a></li>
+      <li><a href="#">监督客服</a></li>
+      <li><a href="#">客服主管</a></li>
+      <li><a href="#">客服一</a></li>
+      <li><a href="#">客服二</a></li>
+      <li><a href="#">客服三</a></li>
+      <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> 隐身客服<b class="caret"></b> </a>
+        <ul class="dropdown-menu">
+          <li><a href="#">24小时客服</a></li>
+          <li class="divider"></li>
+          <li><a href="#">团购客服</a></li>
+          <li class="divider"></li>
+          <li><a href="#">查件客服</a></li>
+          <li class="divider"></li>
+          <li><a href="#">退单客服</a></li>
+          <li class="divider"></li>
+          <li><a href="#">退款客服</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!--引入JS插件--> 
+<script src="{% static 'jquery-2.1.4/jquery.min.js' %}"></script> 
+<script src="{% static 'js/bootstrap.min.js' %}"></script> 
+<script src="{% static 'js/webshop.js' %}"></script>
+</body>
+</html>

@@ -1,0 +1,209 @@
+{% extends "basedetailpage.html" %}
+{% block title %}{{shoppagetitle}}{% endblock %}
+    {% block imgone %} 
+      		{% load staticfiles %}
+      		<img src="{% static "sbwbjg1.jpg" %}" width="{{width445px}}" id="mainimg">{% endblock %}
+
+        {% block imgfive %}
+        	{% load staticfiles %}
+          <li><a href="#"><img src="{% static 'sbwbjg1.jpg' %}" height="60px" id="mainimg1"  style=" border-color:#FF9; border-style:solid; border-width:0px;" onClick="mainimg_change(this)"  onMouseOver="moveimg_change(this)" onMouseOut="outimg_change(this)"></a></li>
+
+          <li><a href="#"><img src="{% static 'sbwbjg2.jpg' %}" height="60px" id="mainimg2"  style=" border-color:#FF9; border-style:solid; border-width:0px;" onClick="mainimg_change(this)"  onMouseOver="moveimg_change(this)" onMouseOut="outimg_change(this)"></a></li>
+
+          <li><a href="#"><img src="{% static 'sbwbjg3.jpg' %}" height="60px" id="mainimg3"  style=" border-color:#FF9; border-style:solid; border-width:0px;" onClick="mainimg_change(this)"  onMouseOver="moveimg_change(this)" onMouseOut="outimg_change(this)"></a></li>
+
+          <li><a href="#"><img src="{% static 'sbwbjg4.jpg' %}" height="60px" id="mainimg4"  style=" border-color:#FF9; border-style:solid; border-width:0px;" onClick="mainimg_change(this)"  onMouseOver="moveimg_change(this)" onMouseOut="outimg_change(this)"></a></li>
+
+          <li><a href="#"><img src="{% static 'sbwbjg5.jpg' %}" height="60px" id="mainimg5"  style=" border-color:#FF9; border-style:solid; border-width:0px;" onClick="mainimg_change(this)"  onMouseOver="moveimg_change(this)" onMouseOut="outimg_change(this)"></a></li>
+
+          <li><a href="#"><img src="{% static 'sbwbjg6.jpg' %}" height="60px" id="mainimg6"  style=" border-color:#FF9; border-style:solid; border-width:0px;" onClick="mainimg_change(this)"  onMouseOver="moveimg_change(this)" onMouseOut="outimg_change(this)"></a></li>
+         {% endblock %}
+   
+        {% block shoptitle %}{{shoptitle}}{% endblock %}
+        {% block shopdnotice %}{{shoptitledetail}}{% endblock %}
+      
+     	{% block price %}{{ price }}{% endblock %}
+	{% block pricep %}{{ pricep }}{% endblock %}
+	{% block priceph %}{{ priceph }}{% endblock %}
+        {% block height %}{{ height }}{% endblock %}
+        {% block commentnum %}{{commentnum}}{% endblock %} 
+      	{% block scuoftranum %}{{ scuoftranum }}{% endblock %}
+      
+		{% block shipintime %}{{ shipintime }}{% endblock %}
+       	{% block inventorynum %}{{ inventorynum }}{% endblock %}
+
+   		{% block deposit %}{{ deposit }}{% endblock %}
+      
+        {% block desscores %}{{ desscores }}{% endblock %}
+        {% block sevscores %}{{ sevscores }}{% endblock %}
+        {% block logisticsscores %}{{ logisticsscores }}{% endblock %}
+        {% block costscores %}{{ costscores }}{% endblock %}
+     
+
+{% block seeandsee %}
+          {% load staticfiles %}
+        <li><a href="/zsxmbdetailpage/"><img src="{% static 'zsxmb2.jpg' %}" width="65px"></a></li>
+        <li><a href="/xycdetailpage/"><img src="{% static 'xyc1.jpg' %}" width="65px"></a></li>
+        <li><a href="/btnlbdetailpage/"><img src="{% static 'btnlb1.jpg' %}" width="65px"></a></li>
+        <li><a href="/dgjytdetailpage/"><img src="{% static 'dgjyt1.jpg' %}" width="65px"></a></li>
+{% endblock %}
+    
+
+  
+{% block highrecommended %}
+      {% load staticfiles %}
+<li><a href="/htgtdetailpage/"><img src="{% static 'htgt3.jpg' %}" width="214"></a></li>
+<li><a href="/kxgdetailpage/"><img src="{% static 'kxg1.jpg' %}" width="214"></a></li>
+<li><a href="/labdmdetailpage/"><img src="{% static 'labdm5.jpg' %}" width="214"></a></li>
+<li><a href="/mdqgyzdetailpage/"><img src="{% static 'mdqgyz3.jpg' %}" width="214"></a></li>
+<li><a href="/mxglzjzdxmdetailpage/"><img src="{% static 'mxglzjzdxm5.jpg' %}" width="214"></a></li>
+{% endblock %}
+     
+ 	  {% block oneweekfeatured %}
+      	{% load staticfiles %}
+<li><a href="/sbwbjgdetailpage/"><img src="{% static 'sbwbjg6.jpg' %}" width="214"></a></li>
+<li><a href="/sbwblmgdetailpage/"><img src="{% static 'sbwblmg4.jpg' %}" width="214"></a></li>
+<li><a href="/sbwzhgsgdetailpage/"><img src="{% static 'sbwzhgsg4.jpg' %}" width="214"></a></li>
+<li><a href="/tw99sgzhwtdetailpage/"><img src="{% static 'tw99sgzhwt2.jpg' %}" width="214"></a></li>
+<li><a href="/xwybggdetailpage/"><img src="{% static 'xwybgg1.jpg' %}" width="214"></a></li>
+{% endblock %}
+
+	  {% block htoshop %}
+        {% load staticfiles %}
+<li><a href="/zjycsxxwzdetailpage/"><img src="{% static 'zjycsxxwz5.jpg' %}" width="214"></a></li>
+<li><a href="/zjynsmdetailpage/"><img src="{% static 'zjynsm1.jpg' %}" width="214"></a></li>
+<li><a href="/zjywxhtwzdetailpage/"><img src="{% static 'zjywxhtwz3.jpg' %}" width="214"></a></li>
+<li><a href="/btnlbdetailpage/"><img src="{% static 'btnlb1.jpg' %}" width="214"></a></li>
+<li><a href="/dgjytdetailpage/"><img src="{% static 'dgjyt1.jpg' %}" width="214"></a></li>
+{% endblock %}
+  
+  
+  
+   
+{% block shopinfo1 %}
+<dt><a href="#">生产许可证编号：QS310967</a></dt>
+<dt><a href="#">厂址: 福建省晋江市罗山街道</a></dt>
+<dt><a href="#">储藏方法: 请置于阴凉干燥处</a></dt>
+<dt><a href="#">净含量: 2330g</a></dt>
+<dt><a href="#">系列: 组合系列</a></dt>
+<dt><a href="#">是否含糖: 含糖</a></dt>
+{% endblock %}
+
+{% block shopinfo2 %}
+<dt><a href="#">产品标准号: GB/T30979</a></dt>
+<dt><a href="#">厂家联系方式: 0591-86773076</a></dt>
+<dt><a href="#">保质期: 400</a></dt>
+<dt><a href="#">包装方式: 包装</a></dt>
+<dt><a href="#">系列: 组合系列</a></dt>
+<dt><a href="#">膨化食品种类: 其他/other</a></dt>
+{% endblock %}
+  
+                  {% block shopinfo3 %}
+<dt><a href="#">厂名: 爱尚(中国)有限公司</a></dt>
+<dt><a href="#">配料表: ego小熊饼干</a></dt>
+<dt><a href="#">食品添加剂: 碳酸氢铵</a></dt>
+<dt><a href="#">品牌: 口水娃</a></dt>
+<dt><a href="#">同城服务: 同城物流送货上门</a></dt>
+<dt><a href="#">省份: 江苏省</a></dt>
+{% endblock %}
+             
+         
+            {% block prodctdate %}2016年04月12日至2016年05月17日
+            {% endblock %}
+           
+          {% block giveback %}<a href="#">{% load staticfiles %}<img src="{% static 'fanxian.jpg' %}" width="720px"></a>{% endblock %}
+          
+          
+            {% block mainmap %}
+            {% load staticfiles %}
+          <li><a href="#"><img src="{% static 'sbwbjg1.jpg' %}" width="720"></a></li>
+          <li><a href="#"><img src="{% static 'sbwbjg2.jpg' %}" width="720"></a></li>
+          <li><a href="#"><img src="{% static 'sbwbjg3.jpg' %}" width="720"></a></li>
+          <li><a href="#"><img src="{% static 'sbwbjg4.jpg' %}" width="720"></a></li>
+          <li><a href="#"><img src="{% static 'sbwbjg5.jpg' %}" width="720"></a></li>
+{% endblock %}
+         
+        
+              
+                        {% block trafast %}(63 ) {% endblock %}
+     					{% block solid %}(43) {% endblock %}
+                       	{% block goodquality %}(38) {% endblock %}
+                       	{% block crowd %}(127) {% endblock %}
+                     	{% block goodserver %}(85 ) {% endblock %}
+                        {% block tasty %}(257) {% endblock %}
+                        {% block quality  %}(355) {% endblock %}
+                        {% block tastegood %}(554) {% endblock %}                     
+                 		{% block quaingen %}(583) {% endblock %}
+						{% block samllsize %}(71) {% endblock %}
+                   
+                 
+                 
+						{% block comment1 %}零食挺多的，相当实惠，第二次购买，感觉挺不错，值得购买{% endblock %}
+                    
+{% block comimg1 %}
+{% load staticfiles %}
+<li><img src="{% static 'sbwbjg1.jpg' %}" width="50"></li>
+<li><img src="{% static 'sbwbjg2.jpg' %}" width="50"></li>
+<li><img src="{% static 'sbwbjg5.jpg' %}" width="50"></li>
+<li><img src="{% static 'sbwbjg6.jpg' %}" width="50"></li>
+<li><img src="{% static 'sbwbjg3.jpg' %}" width="50"></li>
+{% endblock %}
+                        
+                              {% block comdate1 %}2016年03月17日{% endblock %}
+                               {% block comment2 %}一箱零食真好，够我吃挺久的了，而且多种多样，量虽然不是太足，但是对于这个价格来说也都已经算是优惠了啦，下次有机会还来光顾哈！值得购买{% endblock %}
+                          
+                           
+                              {% block comimg2 %}
+                            {% load staticfiles %}
+<li><img src="{% static 'sbwbjg1.jpg' %}" width="50"></li>
+<li><img src="{% static 'sbwbjg2.jpg' %}" width="50"></li>
+<li><img src="{% static 'sbwbjg5.jpg' %}" width="50"></li>
+<li><img src="{% static 'sbwbjg6.jpg' %}" width="50"></li>
+<li><img src="{% static 'sbwbjg3.jpg' %}" width="50"></li>
+{% endblock %}
+{% block comdate2 %}2016年03月19日{% endblock %}
+  
+  
+  
+  {% block comnet3%}本来打开吓一跳满满一箱子！但仔细吧啦吧啦后发现果然和很多买家说的都是市面上5毛两包的东西。纯粹为了这天寒地冻的快递小哥还给送到门口的份上给个五分好评吧！{% endblock %}
+  
+  {% block comimg3 %}
+  {% load staticfiles %}
+<li><img src="{% static 'sbwbjg1.jpg' %}" width="50"></li>
+<li><img src="{% static 'sbwbjg2.jpg' %}" width="50"></li>
+<li><img src="{% static 'sbwbjg5.jpg' %}" width="50"></li>
+<li><img src="{% static 'sbwbjg6.jpg' %}" width="50"></li>
+<li><img src="{% static 'sbwbjg3.jpg' %}" width="50"></li>
+{% endblock %}
+                           
+                              {% block comdate3 %}2016年03月13日{% endblock %}
+                     
+   
+                  {% block soldofservice %}
+                  {% load staticfiles %}
+<li><a href="#"><img src="{% static 'sbwbjg1.jpg' %}" width="215"></a></li>
+<li><a href="#"><img src="{% static 'sbwbjg2.jpg' %}" width="215"></a></li>
+<li><a href="#"><img src="{% static 'sbwbjg4.jpg' %}" width="215"></a></li>
+<li><a href="#"><img src="{% static 'sbwbjg3.jpg' %}" width="215"></a></li>
+<li><a href="#"><img src="{% static 'sbwbjg6.jpg' %}" width="215" ></a></li>
+{% endblock %}
+                
+          
+                    
+                  {% block anser %}
+                  {% load staticfiles %}
+<li><a href="#"><img src="{% static 'sbwbjg2.jpg' %}" width="215"></a></li>
+<li><a href="#"><img src="{% static 'sbwbjg3.jpg' %}" width="215"></a></li>
+<li><a href="#"><img src="{% static 'sbwbjg5.jpg' %}" width="215"></a></li>
+<li><a href="#"><img src="{% static 'sbwbjg4.jpg' %}" width="215"></a></li>
+<li><a href="#"><img src="{% static 'sbwbjg1.jpg' %}" width="215"></a></li>
+{% endblock %}
+
+            {% block exclservice %}
+            {% load staticfiles %}
+<li><a href="#"><img src="{% static 'sbwbjg3.jpg' %}" width="720"></a></li>
+<li><a href="#"><img src="{% static 'sbwbjg4.jpg' %}" width="720"></a></li>
+<li><a href="#"><img src="{% static 'sbwbjg1.jpg' %}" width="720"></a></li>
+<li><a href="#"><img src="{% static 'sbwbjg5.jpg' %}" width="720"></a></li>
+<li><a href="#"><img src="{% static 'sbwbjg2.jpg' %}" width="720"></a></li>
+{% endblock %} 

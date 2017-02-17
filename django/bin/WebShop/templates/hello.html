@@ -1,0 +1,10 @@
+{% extends "hellobk.html" %}
+
+{% block mainbod %}
+<p>I get{{wang}} {{xyc}} the template!</p>
+{% endblock %}
+
+{% block img1 %}
+{% load staticfiles %}
+<img src= "{% static 'pfs.jpg' %}">
+{% endblock %}

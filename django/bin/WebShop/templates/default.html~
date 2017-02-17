@@ -1,0 +1,335 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>糖糖屋零食物语首页</title>
+{% load staticfiles %}
+<link href="{% static "css/bootstrap.min.css" %}" rel="stylesheet" type="text/css"/>
+</head>
+
+<body class="alert-warning">
+
+<!--导航栏-->
+<nav class="navbar navbar-default" style="margin:0px" role="navigation">
+  <div class="navbar-header"> <a class="navbar-brand" href="/default/">首页有惊喜</a> </div>
+  <div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="/comall/">所有宝贝</a></li>
+      <li><a href="/comfrist/">新品首发</a></li>
+      <li><a href="/comcomein/">进口精选</a></li>
+      <li><a href="/comdown/">镇店之宝</a></li>
+      <li><a href="/comjapan/">日本尖货</a></li>
+      <li><a href="/comcri/">韩国风情</a></li>
+      <li><a href="/comamrican/">欧美精品</a></li>
+	<li><a href="/comaus/">澳洲天然</a></li>
+	<li><a href="/comsouais/">东南亚口味</a></li>
+      <li><a href="/hat/">港澳台</a></li>
+      <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> 大陆荟萃 <b class="caret"></b> </a>
+        <ul class="dropdown-menu">
+          <li class="divider"></li>
+          <li><a href="/testes/">东南风味</a></li>
+          <li class="divider"></li>
+          <li><a href="/testws/">西南风味</a></li>
+          <li class="divider"></li>
+          <li><a href="/testcenter/">中原风味</a></li>
+          <li class="divider"></li>
+          <li><a href="/testwn/">西北风味</a></li>
+          <li class="divider"></li>
+          <li><a href="/testen/">东北风味</a></li>
+        </ul>
+      </li>
+      <!--寻找礼物的表单-->
+      <li>
+        <form class="navbar-form navbar-left" role="search">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="送女朋友">
+          </div>
+          <button type="submit" class="btn btn-default">找礼物</button>
+        </form>
+      </li>
+      </li>
+</ul>
+      <!--导航页的最右边登陆和注册按钮-->
+<div class="pull-right" style="margin:7px">
+      <a href="/login/">
+        <button class=" btn btn-success">我要登陆</button>
+      </a>
+</div>
+<div class="pull-right" style="margin:7px">
+      <a href="/register/">
+        <button class=" btn btn-warning">成为会员</button>
+      </a>
+</div>
+  </div>
+</nav>
+<!--首页轮播大图-->
+<div id="myCarousel" class="carousel slide"> 
+  <!-- 轮播（Carousel）指标 -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
+  <!-- 轮播（Carousel）项目 -->
+  <div class="carousel-inner">
+    <div class="item active"> <img src="{% static "ganhuo.jpg" %}" width="1920" height="500" alt="进口干货">
+<div class=" carousel-indicators">进口干货</div>
+    </div>
+    <div class="item"> <img src="{% static "zjyxmm.jpg" %}" width="1920" height="500" alt="张君雅小妹妹">
+      <div class=" carousel-indicators">张君雅小妹妹</div>
+    </div>
+    <div class="item"> <img src="{% static "sgcq.jpg" %}" width="1920" height="500" alt="纯享曲奇">
+      <div class=" carousel-indicators">纯享曲奇</div>
+    </div>
+    <div class="item"> <img src="{% static "pfs.jpg" %}" width="1920" height="500" alt="进口批发商">
+<div class="carousel-indicators">进口批发</div>
+    </div>
+  </div>
+  <!-- 轮播（Carousel）导航 --> 
+  <a class="carousel-control left" href="#myCarousel" 
+      data-slide="prev">&lsaquo;</a> <a class="carousel-control right" href="#myCarousel" 
+      data-slide="next">&rsaquo;</a> </div>
+
+<!--首页第一张静态图片-->
+<div> <img src="{% static "fristpage.jpg" %}"  class="img-responsive" width="1920" height="680"> </div>
+<!--所有食品产品列表图--> 
+<!--第一楼宝贝-->
+<div class="container">
+  <div>
+    <h1 class="page-header alert-warning" style=" margin-bottom:0px">1F甜蜜饼干系列</h1>
+  </div>
+  <div class="row">
+    <div class="col-xs-3 alert-success"><a href="/zsxmbdetailpage/"><img src="{% static "zsxmb1.jpg" %}" width="300" alt="紫薯小面包"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/xycdetailpage/"><img src="{% static "xyc1.jpg" %}" width="300" alt="鳕鱼肠"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/btnlbdetailpage/"><img src="{% static "btnlb1.jpg" %}" width="300" alt="北田能量棒"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/dgjytdetailpage/"><img src="{% static "dgjyt1.jpg" %}" width="300" alt="德国嘉云糖"></a></div>
+  </div>
+  <div class="alert-success"><a>&nbsp;</a></div>
+  <div class="row">
+    <div class="col-xs-3 alert-success"><a href="/htgtdetailpage/"><img src="{% static "htgt6.jpg" %}" width="300" alt="黄桃罐头"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/kxgdetailpage/"><img src="{% static "kxg1.jpg" %}" width="300" alt="开心果"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/labdmdetailpage/"><img src="{% static "labdm5.jpg" %}" width="300" alt="临安八旦木"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/mdqgyzdetailpage/"><img src="{% static "mdqgyz3.jpg" %}" width="300" alt="脉动去骨鸭掌"></a></div>
+  </div>
+  <div class="alert-success"><a>&nbsp;</a></div>
+  <div class="row">
+    <div class="col-xs-3 alert-success"><a href="/mxglzjzdxmdetailpage/"><img src="{% static "mxglzjzdxm1.jpg" %}" width="300" alt="墨西哥辣子鸡汁点心面"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/sbwbjgdetailpage/"><img src="{% static "sbwbjg6.jpg" %}" width="300" alt="沙巴哇芭蕉干"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/sbwblmgdetailpage/"><img src="{% static "sbwblmg5.jpg" %}" width="300" alt="沙巴哇菠萝蜜干"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/sbwzhgsgdetailpage/"><img src="{% static "sbwzhgsg6.jpg" %}" width="300" alt="沙巴哇综合蔬果干"></a></div>
+  </div>
+  <div class="alert-success"><a>&nbsp;</a></div>
+  <div class="row">
+    <div class="col-xs-3 alert-success"><a href="/tw99sgzhwtdetailpage/"><img src="{% static "tw99sgzhwt1.jpg" %}" width="300" alt="台湾99蔬果综合味糖"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/xwybggdetailpage/"><img src="{% static "xwybgg1.jpg" %}" width="300" alt="奶香碧根果"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/zjycsxxwzdetailpage/"><img src="{% static "zjycsxxwz5.jpg" %}" width="300" alt="张君串烧休闲丸子"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/zjynsmdetailpage/"><img src="{% static "zjynsm1.jpg" %}" width="300" alt="张君捏碎面"></a></div>
+  </div>
+</div>
+<!--第二楼宝贝-->
+<div class="container">
+  <div>
+    <h1 class="page-header alert-warning" style=" margin-bottom:0px">2F精品坚果系列</h1>
+  </div>
+  <div class="row">
+    <div class="col-xs-3 alert-success"><a href="/zsxmbdetailpage/"><img src="{% static "zsxmb1.jpg" %}" width="300" alt="紫薯小面包"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/xycdetailpage/"><img src="{% static "xyc1.jpg" %}" width="300" alt="鳕鱼肠"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/btnlbdetailpage/"><img src="{% static "btnlb1.jpg" %}" width="300" alt="北田能量棒"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/dgjytdetailpage/"><img src="{% static "dgjyt1.jpg" %}" width="300" alt="德国嘉云糖"></a></div>
+  </div>
+  <div class="alert-success"><a>&nbsp;</a></div>
+  <div class="row">
+    <div class="col-xs-3 alert-success"><a href="/htgtdetailpage/"><img src="{% static "htgt6.jpg" %}" width="300" alt="黄桃罐头"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/kxgdetailpage/"><img src="{% static "kxg1.jpg" %}" width="300" alt="开心果"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/labdmdetailpage/"><img src="{% static "labdm5.jpg" %}" width="300" alt="临安八旦木"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/mdqgyzdetailpage/"><img src="{% static "mdqgyz3.jpg" %}" width="300" alt="脉动去骨鸭掌"></a></div>
+  </div>
+  <div class="alert-success"><a>&nbsp;</a></div>
+  <div class="row">
+    <div class="col-xs-3 alert-success"><a href="/mxglzjzdxmdetailpage/"><img src="{% static "mxglzjzdxm1.jpg" %}" width="300" alt="墨西哥辣子鸡汁点心面"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/sbwbjgdetailpage/"><img src="{% static "sbwbjg6.jpg" %}" width="300" alt="沙巴哇芭蕉干"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/sbwblmgdetailpage/"><img src="{% static "sbwblmg5.jpg" %}" width="300" alt="沙巴哇菠萝蜜干"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/sbwzhgsgdetailpage/"><img src="{% static "sbwzhgsg6.jpg" %}" width="300" alt="沙巴哇综合蔬果干"></a></div>
+  </div>
+  <div class="alert-success"><a>&nbsp;</a></div>
+  <div class="row">
+    <div class="col-xs-3 alert-success"><a href="/tw99sgzhwtdetailpage/"><img src="{% static "tw99sgzhwt1.jpg" %}" width="300" alt="台湾99蔬果综合味糖"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/xwybggdetailpage/"><img src="{% static "xwybgg1.jpg" %}" width="300" alt="奶香碧根果"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/zjycsxxwzdetailpage/"><img src="{% static "zjycsxxwz5.jpg" %}" width="300" alt="张君串烧休闲丸子"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/zjynsmdetailpage/"><img src="{% static "zjynsm1.jpg" %}" width="300" alt="张君捏碎面"></a></div>
+  </div>
+</div>
+<!--第三楼宝贝-->
+<div class="container">
+  <div>
+    <h1 class="page-header alert-warning" style=" margin-bottom:0px">3F无肉不欢系列</h1>
+  </div>
+  <div class="row">
+    <div class="col-xs-3 alert-success"><a href="/zsxmbdetailpage/"><img src="{% static "zsxmb1.jpg" %}" width="300" alt="紫薯小面包"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/xycdetailpage/"><img src="{% static "xyc1.jpg" %}" width="300" alt="鳕鱼肠"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/btnlbdetailpage/"><img src="{% static "btnlb1.jpg" %}" width="300" alt="北田能量棒"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/dgjytdetailpage/"><img src="{% static "dgjyt1.jpg" %}" width="300" alt="德国嘉云糖"></a></div>
+  </div>
+  <div class="alert-success"><a>&nbsp;</a></div>
+  <div class="row">
+    <div class="col-xs-3 alert-success"><a href="/htgtdetailpage/"><img src="{% static "htgt6.jpg" %}" width="300" alt="黄桃罐头"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/kxgdetailpage/"><img src="{% static "kxg1.jpg" %}" width="300" alt="开心果"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/labdmdetailpage/"><img src="{% static "labdm5.jpg" %}" width="300" alt="临安八旦木"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/mdqgyzdetailpage/"><img src="{% static "mdqgyz3.jpg" %}" width="300" alt="脉动去骨鸭掌"></a></div>
+  </div>
+  <div class="alert-success"><a>&nbsp;</a></div>
+  <div class="row">
+    <div class="col-xs-3 alert-success"><a href="/mxglzjzdxmdetailpage/"><img src="{% static "mxglzjzdxm1.jpg" %}" width="300" alt="墨西哥辣子鸡汁点心面"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/sbwbjgdetailpage/"><img src="{% static "sbwbjg6.jpg" %}" width="300" alt="沙巴哇芭蕉干"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/sbwblmgdetailpage/"><img src="{% static "sbwblmg5.jpg" %}" width="300" alt="沙巴哇菠萝蜜干"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/sbwzhgsgdetailpage/"><img src="{% static "sbwzhgsg6.jpg" %}" width="300" alt="沙巴哇综合蔬果干"></a></div>
+  </div>
+  <div class="alert-success"><a>&nbsp;</a></div>
+  <div class="row">
+    <div class="col-xs-3 alert-success"><a href="/tw99sgzhwtdetailpage/"><img src="{% static "tw99sgzhwt1.jpg" %}" width="300" alt="台湾99蔬果综合味糖"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/xwybggdetailpage/"><img src="{% static "xwybgg1.jpg" %}" width="300" alt="奶香碧根果"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/zjycsxxwzdetailpage/"><img src="{% static "zjycsxxwz5.jpg" %}" width="300" alt="张君串烧休闲丸子"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/zjynsmdetailpage/"><img src="{% static "zjynsm1.jpg" %}" width="300" alt="张君捏碎面"></a></div>
+  </div>
+</div>
+<!--第四楼宝贝-->
+<div class="container">
+  <div>
+    <h1 class="page-header alert-warning" style=" margin-bottom:0px">4F东南情风情系列</h1>
+  </div>
+  <div class="row">
+    <div class="col-xs-3 alert-success"><a href="/zsxmbdetailpage/"><img src="{% static "zsxmb1.jpg" %}" width="300" alt="紫薯小面包"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/xycdetailpage/"><img src="{% static "xyc1.jpg" %}" width="300" alt="鳕鱼肠"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/btnlbdetailpage/"><img src="{% static "btnlb1.jpg" %}" width="300" alt="北田能量棒"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/dgjytdetailpage/"><img src="{% static "dgjyt1.jpg" %}" width="300" alt="德国嘉云糖"></a></div>
+  </div>
+  <div class="alert-success"><a>&nbsp;</a></div>
+  <div class="row">
+    <div class="col-xs-3 alert-success"><a href="/htgtdetailpage/"><img src="{% static "htgt6.jpg" %}" width="300" alt="黄桃罐头"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/kxgdetailpage/"><img src="{% static "kxg1.jpg" %}" width="300" alt="开心果"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/labdmdetailpage/"><img src="{% static "labdm5.jpg" %}" width="300" alt="临安八旦木"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/mdqgyzdetailpage/"><img src="{% static "mdqgyz3.jpg" %}" width="300" alt="脉动去骨鸭掌"></a></div>
+  </div>
+  <div class="alert-success"><a>&nbsp;</a></div>
+  <div class="row">
+    <div class="col-xs-3 alert-success"><a href="/mxglzjzdxmdetailpage/"><img src="{% static "mxglzjzdxm1.jpg" %}" width="300" alt="墨西哥辣子鸡汁点心面"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/sbwbjgdetailpage/"><img src="{% static "sbwbjg6.jpg" %}" width="300" alt="沙巴哇芭蕉干"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/sbwblmgdetailpage/"><img src="{% static "sbwblmg5.jpg" %}" width="300" alt="沙巴哇菠萝蜜干"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/sbwzhgsgdetailpage/"><img src="{% static "sbwzhgsg6.jpg" %}" width="300" alt="沙巴哇综合蔬果干"></a></div>
+  </div>
+  <div class="alert-success"><a>&nbsp;</a></div>
+  <div class="row">
+    <div class="col-xs-3 alert-success"><a href="/tw99sgzhwtdetailpage/"><img src="{% static "tw99sgzhwt1.jpg" %}" width="300" alt="台湾99蔬果综合味糖"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/xwybggdetailpage/"><img src="{% static "xwybgg1.jpg" %}" width="300" alt="奶香碧根果"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/zjycsxxwzdetailpage/"><img src="{% static "zjycsxxwz5.jpg" %}" width="300" alt="张君串烧休闲丸子"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/zjynsmdetailpage/"><img src="{% static "zjynsm1.jpg" %}" width="300" alt="张君捏碎面"></a></div>
+  </div>
+</div>
+<!--第五楼宝贝-->
+<div class="container">
+  <div>
+    <h1 class="page-header alert-warning" style=" margin-bottom:0px">5F海鲜海味系列</h1>
+  </div>
+  <div class="row">
+    <div class="col-xs-3 alert-success"><a href="/zsxmbdetailpage/"><img src="{% static "zsxmb1.jpg" %}" width="300" alt="紫薯小面包"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/xycdetailpage/"><img src="{% static "xyc1.jpg" %}" width="300" alt="鳕鱼肠"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/btnlbdetailpage/"><img src="{% static "btnlb1.jpg" %}" width="300" alt="北田能量棒"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/dgjytdetailpage/"><img src="{% static "dgjyt1.jpg" %}" width="300" alt="德国嘉云糖"></a></div>
+  </div>
+  <div class="alert-success"><a>&nbsp;</a></div>
+  <div class="row">
+    <div class="col-xs-3 alert-success"><a href="/htgtdetailpage/"><img src="{% static "htgt6.jpg" %}" width="300" alt="黄桃罐头"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/kxgdetailpage/"><img src="{% static "kxg1.jpg" %}" width="300" alt="开心果"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/labdmdetailpage/"><img src="{% static "labdm5.jpg" %}" width="300" alt="临安八旦木"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/mdqgyzdetailpage/"><img src="{% static "mdqgyz3.jpg" %}" width="300" alt="脉动去骨鸭掌"></a></div>
+  </div>
+  <div class="alert-success"><a>&nbsp;</a></div>
+  <div class="row">
+    <div class="col-xs-3 alert-success"><a href="/mxglzjzdxmdetailpage/"><img src="{% static "mxglzjzdxm1.jpg" %}" width="300" alt="墨西哥辣子鸡汁点心面"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/sbwbjgdetailpage/"><img src="{% static "sbwbjg6.jpg" %}" width="300" alt="沙巴哇芭蕉干"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/sbwblmgdetailpage/"><img src="{% static "sbwblmg5.jpg" %}" width="300" alt="沙巴哇菠萝蜜干"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/sbwzhgsgdetailpage/"><img src="{% static "sbwzhgsg6.jpg" %}" width="300" alt="沙巴哇综合蔬果干"></a></div>
+  </div>
+  <div class="alert-success"><a>&nbsp;</a></div>
+  <div class="row">
+    <div class="col-xs-3 alert-success"><a href="/tw99sgzhwtdetailpage/"><img src="{% static "tw99sgzhwt1.jpg" %}" width="300" alt="台湾99蔬果综合味糖"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/xwybggdetailpage/"><img src="{% static "xwybgg1.jpg" %}" width="300" alt="奶香碧根果"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/zjycsxxwzdetailpage/"><img src="{% static "zjycsxxwz5.jpg" %}" width="300" alt="张君串烧休闲丸子"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/zjynsmdetailpage/"><img src="{% static "zjynsm1.jpg" %}" width="300" alt="张君捏碎面"></a></div>
+  </div>
+</div>
+<!--第六楼宝贝-->
+<div class="container">
+  <div>
+    <h1 class="page-header alert-warning" style=" margin-bottom:0px">6F麻辣风味系列</h1>
+  </div>
+  <div class="row">
+    <div class="col-xs-3 alert-success"><a href="/zsxmbdetailpage/"><img src="{% static "zsxmb1.jpg" %}" width="300" alt="紫薯小面包"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/xycdetailpage/"><img src="{% static "xyc1.jpg" %}" width="300" alt="鳕鱼肠"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/btnlbdetailpage/"><img src="{% static "btnlb1.jpg" %}" width="300" alt="北田能量棒"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/dgjytdetailpage/"><img src="{% static "dgjyt1.jpg" %}" width="300" alt="德国嘉云糖"></a></div>
+  </div>
+  <div class="alert-success"><a>&nbsp;</a></div>
+  <div class="row">
+    <div class="col-xs-3 alert-success"><a href="/htgtdetailpage/"><img src="{% static "htgt6.jpg" %}" width="300" alt="黄桃罐头"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/kxgdetailpage/"><img src="{% static "kxg1.jpg" %}" width="300" alt="开心果"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/labdmdetailpage/"><img src="{% static "labdm5.jpg" %}" width="300" alt="临安八旦木"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/mdqgyzdetailpage/"><img src="{% static "mdqgyz3.jpg" %}" width="300" alt="脉动去骨鸭掌"></a></div>
+  </div>
+  <div class="alert-success"><a>&nbsp;</a></div>
+  <div class="row">
+    <div class="col-xs-3 alert-success"><a href="/mxglzjzdxmdetailpage/"><img src="{% static "mxglzjzdxm1.jpg" %}" width="300" alt="墨西哥辣子鸡汁点心面"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/sbwbjgdetailpage/"><img src="{% static "sbwbjg6.jpg" %}" width="300" alt="沙巴哇芭蕉干"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/sbwblmgdetailpage/"><img src="{% static "sbwblmg5.jpg" %}" width="300" alt="沙巴哇菠萝蜜干"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/sbwzhgsgdetailpage/"><img src="{% static "sbwzhgsg6.jpg" %}" width="300" alt="沙巴哇综合蔬果干"></a></div>
+  </div>
+  <div class="alert-success"><a>&nbsp;</a></div>
+  <div class="row">
+    <div class="col-xs-3 alert-success"><a href="/tw99sgzhwtdetailpage/"><img src="{% static "tw99sgzhwt1.jpg" %}" width="300" alt="台湾99蔬果综合味糖"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/xwybggdetailpage/"><img src="{% static "xwybgg1.jpg" %}" width="300" alt="奶香碧根果"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/zjycsxxwzdetailpage/"><img src="{% static "zjycsxxwz5.jpg" %}" width="300" alt="张君串烧休闲丸子"></a></div>
+    <div class="col-xs-3 alert-success"><a href="/zjynsmdetailpage/"><img src="{% static "zjynsm1.jpg" %}" width="300" alt="张君捏碎面"></a></div>
+  </div>
+</div>
+
+ <div class="alert-success"><a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></div>
+ <div class="alert-success"><a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></div>
+ <div class="alert-success"><a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></div>
+ <div class="alert-success"><a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></div>
+<!--底部导航栏-->
+<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+  <div class="navbar-header"> <a class="navbar-brand" href="#">糖糖屋零食物语有限公司</a> </div>
+  <div>
+    <ul class="nav navbar-nav">
+      <li><a href="/compationdes/">公司简介</a></li>
+      <li><a href="/cendes/">资质证明</a></li>
+      <li class="active"><a href="#">掌柜</a></li>
+      <li><a href="#">监督客服</a></li>
+      <li><a href="#">客服主管</a></li>
+      <li><a href="#">客服一</a></li>
+      <li><a href="#">客服二</a></li>
+      <li><a href="#">客服三</a></li>
+      <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> 隐身客服<b class="caret"></b> </a>
+        <ul class="dropdown-menu">
+          <li><a href="#">24小时客服</a></li>
+          <li class="divider"></li>
+          <li><a href="#">团购客服</a></li>
+          <li class="divider"></li>
+          <li><a href="#">查件客服</a></li>
+          <li class="divider"></li>
+          <li><a href="#">退单客服</a></li>
+          <li class="divider"></li>
+          <li><a href="#">退款客服</a></li>
+        </ul>
+      </li>
+	  <li><a href="/adminlogin/"><button class="btn btn-info">管理员入口</button></a></li>
+    </ul>
+  </div>
+</nav>
+
+<!--引入JS插件--> 
+<script src="{% static "jquery-2.1.4/jquery.min.js" %}"></script>
+<script src="{% static "js/bootstrap.min.js" %}"></script>
+</body>
+</html>

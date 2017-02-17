@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>用户信息查询表</title>
+<!--用户引入css文件-->
+{% load staticfiles %}
+<link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" type="text/css">
+<link href="{% static 'css/webshop.css' %}" rel="stylesheet" type="text/css">
+</head>
+<body class="alert-warning">
+<div class="container">
+<table class="table table-bordered alert-success">
+ 	<caption class="text-center"><h1>用户信息表</h1></caption>
+	<thead>
+    	<tr>
+        	<th>用户名</th>
+            <th>注册邮箱</th>
+            <th>用户状态</th>
+            <th>用户余额</th>
+            <th>信用等级</th>
+        </tr> 
+    </thead>
+	<tbody>
+    	<tr>
+        	<td>{{username}}</td>
+            <td>{{usermail}}</td>
+			{% if userstatus == '0' %}
+				<td>用户当前不在线</td>
+			{% else %}
+            	<td>{{userstatus}}</td>
+			{% endif %}
+
+
+			{% if usermoneny == '0' %}
+				<td>当前帐户已无资金可用</td>
+			{% else%}
+            	<td>{{usermoneny}}</td>
+			{% endif %}
+
+
+			{% if usercreditstatus == '5' %}
+            	<td>信誉优质</td>
+			{% elif usercreditstatus == '4' %}
+            	<td>信誉优良</td>
+			{% elif usercreditstatus == '3' %}
+				<td>信誉中等</td>
+			{% elif usercreditstatus == '2' %}
+				<td>信誉一般</td>
+			{% elif usercreditstatus == '1' %}
+				<td>信誉危机</td>
+			{% elif usercreditstatus == '0' %}
+				<td>黑名单用户</td>
+			{% endif %}
+        </tr>
+    </tbody>
+</table>
+</div>
+
+<!--引用用户的js文件-->
+<script src="{% static 'jquery-2.1.4/jquery.min.js' %}"></script>
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+<script src="{% static 'js/webshop.js' %}"></script>
+</body>
+</html>

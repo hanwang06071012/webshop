@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<title>管理员登陆失败页</title>
+{% load staticfiles %}
+<link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" type="text/css">
+<link href="{% static 'css/webshop.css' %}" rel="stylesheet" type="text/css">
+</head>
+
+<body class="alert-warning">
+
+<div class="container alert-info logscu">
+<h1>此帐号用户名或者密码不正确，或者帐号不存在</h1><br>
+<a href="/adminlogin/"><button class="btn btn-success btn-lg"><i class="glyphicon glyphicon-arrow-left"></i>返回管理员页面重新登陆</button></a>
+</div>
+
+
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+<script src="{% static 'js/webshop.js' %}"></script>
+</body>
+</html>

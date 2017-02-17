@@ -1,0 +1,28 @@
+{% extends basedefaultsubpage.html %}
+
+{% block titleimg %}
+{% load staticfiles %}
+	<a href="#"><img src="{% static 'basesubtitlepage.jpg' %}"></a>
+{% endblock %}
+
+{% block commodityall  %}
+{% load staticfiles %}
+	<ul class="list-inline">
+   		<li style="margin:15px 0px"><a href="/btnlbdetailpage/"><img src="{% static 'btnlb1.jpg' %}" width="350px" style="border-style:dashed"/></a></li>
+        <li style="margin:15px 0px"><a href="/dgjytdetailpage/"><img src="{% static 'dgjyt1.jpg' %}" width="350px" style="border-style:dashed"/></a></li>
+        <li style="margin:15px 0px"><a href="/htgtdetailpage/"><img src="{% static 'htgt1.jpg' %}" width="350px" style="border-style:dashed"/></a></li>
+        <li style="margin:15px 0px"><a href="/kxgdetailpage/"><img src="{% static 'kxg1.jpg' %}" width="350px" style="border-style:dashed"/></a></li>
+        <li style="margin:15px 0px"><a href="/labdmdetailpage/"><img src="{% static 'labdm1.jpg' %}" width="350px" style="border-style:dashed"/></a></li>
+        <li style="margin:15px 0px"><a href="/mdqgyzdetailpage/"><img src="{% static 'mdqgyz1.jpg' %}" width="350px" style="border-style:dashed"/></a></li>
+        <li style="margin:15px 0px"><a href="/mxglzjzdxmdetailpage/"><img src="{% static 'mxglzjzdxm1.jpg' %}" width="350px" style="border-style:dashed"/></a></li>
+        <li style="margin:15px 0px"><a href="/sbwbjgdetailpage/"><img src="{% static 'sbwbjg1.jpg' %}" width="350px" style="border-style:dashed"/></a></li>
+        <li style="margin:15px 0px"><a href="/sbwblmgdetailpage/"><img src="{% static 'sbwblmg1.jpg' %}" width="350px" style="border-style:dashed"/></a></li>
+        <li style="margin:15px 0px"><a href="/sbwzhgsgdetailpage/"><img src="{% static 'sbwzhgsg1.jpg' %}" width="350px" style="border-style:dashed"/></a></li>
+        <li style="margin:15px 0px"><a href="/tw99sgzhwtdetailpage/"><img src="{% static 'tw99sgzhwt1.jpg' %}" width="350px" style="border-style:dashed"/></a></li>
+        <li style="margin:15px 0px"><a href="/xwybggdetailpage/"><img src="{% static 'xwybgg1.jpg' %}" width="350px" style="border-style:dashed"/></a></li>
+        <li style="margin:15px 0px"><a href="/zjycsxxwzdetailpage/"><img src="{% static 'zjycsxxwz1.jpg' %}" width="350px" style="border-style:dashed"/></a></li>
+        <li style="margin:15px 0px"><a href="/zjynsmdetailpage/"><img src="{% static 'zjynsm1.jpg' %}" width="350px" style="border-style:dashed"/></a></li>
+        <li style="margin:15px 0px"><a href="/zjywxhtxadetailpage/"><img src="{% static 'zjywxhtwz1.jpg' %}" width="350px" style="border-style:dashed"/></a></li>
+        <li style="margin:15px 0px"><a href="/zsxmbdetailpage/"><img src="{% static 'zsxmb1.jpg' %}" width="350px" style="border-style:dashed"/></a></li>
+	</ul>
+{% endblock %}

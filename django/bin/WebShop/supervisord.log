@@ -1,0 +1,719 @@
+2016-03-06 18:45:22,489 CRIT Supervisor running as root (no user in config file)
+2016-03-06 18:45:22,493 INFO daemonizing the supervisord process
+2016-03-06 18:45:22,494 INFO supervisord started with pid 3340
+2016-03-06 18:45:23,504 INFO spawned: 'WebShop' with pid 3341
+2016-03-06 18:45:23,529 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:33:35,735 INFO exited: WebShop (terminated by SIGKILL; not expected)
+2016-03-06 19:33:36,751 INFO spawned: 'WebShop' with pid 6555
+2016-03-06 19:33:36,779 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:33:36,783 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:33:37,793 INFO spawned: 'WebShop' with pid 6557
+2016-03-06 19:33:37,819 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:33:37,824 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:33:38,838 INFO spawned: 'WebShop' with pid 6558
+2016-03-06 19:33:38,863 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:33:38,868 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:33:39,886 INFO spawned: 'WebShop' with pid 6559
+2016-03-06 19:33:39,902 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:33:39,904 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:33:40,912 INFO spawned: 'WebShop' with pid 6561
+2016-03-06 19:33:40,940 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:33:40,944 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:33:41,951 INFO spawned: 'WebShop' with pid 6562
+2016-03-06 19:33:41,977 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:33:41,982 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:33:42,988 INFO spawned: 'WebShop' with pid 6563
+2016-03-06 19:33:43,015 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:33:43,018 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:33:44,023 INFO spawned: 'WebShop' with pid 6564
+2016-03-06 19:33:44,050 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:33:44,054 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:33:45,060 INFO spawned: 'WebShop' with pid 6565
+2016-03-06 19:33:45,087 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:33:45,090 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:33:46,096 INFO spawned: 'WebShop' with pid 6566
+2016-03-06 19:33:46,127 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:33:46,131 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:33:47,138 INFO spawned: 'WebShop' with pid 6567
+2016-03-06 19:33:47,161 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:33:47,164 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:33:48,167 INFO spawned: 'WebShop' with pid 6568
+2016-03-06 19:33:48,177 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:33:48,180 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:33:49,185 INFO spawned: 'WebShop' with pid 6569
+2016-03-06 19:33:49,212 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:33:49,218 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:33:50,225 INFO spawned: 'WebShop' with pid 6570
+2016-03-06 19:33:50,249 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:33:50,252 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:33:51,256 INFO spawned: 'WebShop' with pid 6571
+2016-03-06 19:33:51,270 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:33:51,273 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:33:52,283 INFO spawned: 'WebShop' with pid 6572
+2016-03-06 19:33:52,308 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:33:52,312 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:33:53,328 INFO spawned: 'WebShop' with pid 6573
+2016-03-06 19:33:53,354 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:33:53,358 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:33:54,370 INFO spawned: 'WebShop' with pid 6574
+2016-03-06 19:33:54,378 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:33:54,381 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:33:55,386 INFO spawned: 'WebShop' with pid 6575
+2016-03-06 19:33:55,412 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:33:55,415 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:33:56,426 INFO spawned: 'WebShop' with pid 6576
+2016-03-06 19:33:56,459 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:33:56,462 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:33:57,483 INFO spawned: 'WebShop' with pid 6577
+2016-03-06 19:33:57,509 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:33:57,511 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:33:58,529 INFO spawned: 'WebShop' with pid 6578
+2016-03-06 19:33:58,555 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:33:58,563 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:33:59,574 INFO spawned: 'WebShop' with pid 6579
+2016-03-06 19:33:59,603 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:33:59,607 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:00,622 INFO spawned: 'WebShop' with pid 6580
+2016-03-06 19:34:00,648 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:00,652 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:01,668 INFO spawned: 'WebShop' with pid 6581
+2016-03-06 19:34:01,693 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:01,697 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:02,713 INFO spawned: 'WebShop' with pid 6582
+2016-03-06 19:34:02,738 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:02,742 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:03,762 INFO spawned: 'WebShop' with pid 6583
+2016-03-06 19:34:03,787 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:03,793 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:04,806 INFO spawned: 'WebShop' with pid 6584
+2016-03-06 19:34:04,832 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:04,837 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:05,851 INFO spawned: 'WebShop' with pid 6585
+2016-03-06 19:34:05,877 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:05,881 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:06,885 INFO spawned: 'WebShop' with pid 6586
+2016-03-06 19:34:06,896 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:06,899 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:07,912 INFO spawned: 'WebShop' with pid 6587
+2016-03-06 19:34:07,937 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:07,941 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:08,948 INFO spawned: 'WebShop' with pid 6588
+2016-03-06 19:34:08,974 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:08,978 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:09,985 INFO spawned: 'WebShop' with pid 6589
+2016-03-06 19:34:10,012 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:10,017 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:11,024 INFO spawned: 'WebShop' with pid 6590
+2016-03-06 19:34:11,050 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:11,054 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:12,064 INFO spawned: 'WebShop' with pid 6591
+2016-03-06 19:34:12,089 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:12,091 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:13,099 INFO spawned: 'WebShop' with pid 6592
+2016-03-06 19:34:13,123 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:13,127 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:14,135 INFO spawned: 'WebShop' with pid 6593
+2016-03-06 19:34:14,162 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:14,166 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:15,171 INFO spawned: 'WebShop' with pid 6594
+2016-03-06 19:34:15,187 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:15,190 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:16,198 INFO spawned: 'WebShop' with pid 6595
+2016-03-06 19:34:16,225 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:16,228 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:17,235 INFO spawned: 'WebShop' with pid 6596
+2016-03-06 19:34:17,263 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:17,268 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:18,274 INFO spawned: 'WebShop' with pid 6597
+2016-03-06 19:34:18,298 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:18,301 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:19,306 INFO spawned: 'WebShop' with pid 6598
+2016-03-06 19:34:19,333 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:19,337 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:20,344 INFO spawned: 'WebShop' with pid 6599
+2016-03-06 19:34:20,369 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:20,371 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:21,377 INFO spawned: 'WebShop' with pid 6600
+2016-03-06 19:34:21,397 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:21,400 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:22,406 INFO spawned: 'WebShop' with pid 6601
+2016-03-06 19:34:22,435 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:22,438 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:23,444 INFO spawned: 'WebShop' with pid 6602
+2016-03-06 19:34:23,471 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:23,475 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:24,480 INFO spawned: 'WebShop' with pid 6603
+2016-03-06 19:34:24,508 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:24,512 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:25,519 INFO spawned: 'WebShop' with pid 6604
+2016-03-06 19:34:25,545 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:25,549 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:26,557 INFO spawned: 'WebShop' with pid 6605
+2016-03-06 19:34:26,583 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:26,587 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:27,595 INFO spawned: 'WebShop' with pid 6606
+2016-03-06 19:34:27,622 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:27,626 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:28,633 INFO spawned: 'WebShop' with pid 6607
+2016-03-06 19:34:28,659 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:28,664 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:29,675 INFO spawned: 'WebShop' with pid 6608
+2016-03-06 19:34:29,700 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:29,702 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:30,714 INFO spawned: 'WebShop' with pid 6609
+2016-03-06 19:34:30,739 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:30,744 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:31,759 INFO spawned: 'WebShop' with pid 6610
+2016-03-06 19:34:31,784 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:31,788 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:32,804 INFO spawned: 'WebShop' with pid 6611
+2016-03-06 19:34:32,821 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:32,824 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:33,837 INFO spawned: 'WebShop' with pid 6612
+2016-03-06 19:34:33,862 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:33,867 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:34,882 INFO spawned: 'WebShop' with pid 6613
+2016-03-06 19:34:34,906 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:34,912 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:35,927 INFO spawned: 'WebShop' with pid 6614
+2016-03-06 19:34:35,953 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:35,957 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:36,976 INFO spawned: 'WebShop' with pid 6615
+2016-03-06 19:34:37,001 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:37,005 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:38,022 INFO spawned: 'WebShop' with pid 6616
+2016-03-06 19:34:38,049 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:38,051 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:39,066 INFO spawned: 'WebShop' with pid 6617
+2016-03-06 19:34:39,091 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:39,094 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:40,100 INFO spawned: 'WebShop' with pid 6618
+2016-03-06 19:34:40,126 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:40,136 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:41,149 INFO spawned: 'WebShop' with pid 6619
+2016-03-06 19:34:41,176 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:41,180 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:42,189 INFO spawned: 'WebShop' with pid 6620
+2016-03-06 19:34:42,199 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:42,201 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:43,218 INFO spawned: 'WebShop' with pid 6621
+2016-03-06 19:34:43,236 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:43,240 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:44,251 INFO spawned: 'WebShop' with pid 6622
+2016-03-06 19:34:44,277 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:44,279 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:45,287 INFO spawned: 'WebShop' with pid 6623
+2016-03-06 19:34:45,312 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:45,318 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:46,331 INFO spawned: 'WebShop' with pid 6624
+2016-03-06 19:34:46,356 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:46,359 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:47,377 INFO spawned: 'WebShop' with pid 6625
+2016-03-06 19:34:47,403 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:47,405 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:48,410 INFO spawned: 'WebShop' with pid 6626
+2016-03-06 19:34:48,428 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:48,431 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:49,439 INFO spawned: 'WebShop' with pid 6627
+2016-03-06 19:34:49,465 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:49,469 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:50,484 INFO spawned: 'WebShop' with pid 6628
+2016-03-06 19:34:50,513 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:50,517 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:51,531 INFO spawned: 'WebShop' with pid 6629
+2016-03-06 19:34:51,556 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:51,561 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:52,576 INFO spawned: 'WebShop' with pid 6630
+2016-03-06 19:34:52,601 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:52,605 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:53,622 INFO spawned: 'WebShop' with pid 6631
+2016-03-06 19:34:53,648 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:53,650 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:54,656 INFO spawned: 'WebShop' with pid 6632
+2016-03-06 19:34:54,683 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:54,687 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:55,701 INFO spawned: 'WebShop' with pid 6633
+2016-03-06 19:34:55,726 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:55,730 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:56,746 INFO spawned: 'WebShop' with pid 6634
+2016-03-06 19:34:56,772 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:56,776 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:57,795 INFO spawned: 'WebShop' with pid 6635
+2016-03-06 19:34:57,820 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:57,825 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:58,840 INFO spawned: 'WebShop' with pid 6636
+2016-03-06 19:34:58,867 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:58,869 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:34:59,885 INFO spawned: 'WebShop' with pid 6637
+2016-03-06 19:34:59,910 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:34:59,914 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:00,933 INFO spawned: 'WebShop' with pid 6638
+2016-03-06 19:35:00,959 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:00,963 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:01,978 INFO spawned: 'WebShop' with pid 6639
+2016-03-06 19:35:02,004 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:02,007 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:03,024 INFO spawned: 'WebShop' with pid 6640
+2016-03-06 19:35:03,049 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:03,054 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:04,073 INFO spawned: 'WebShop' with pid 6641
+2016-03-06 19:35:04,100 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:04,104 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:05,118 INFO spawned: 'WebShop' with pid 6642
+2016-03-06 19:35:05,143 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:05,147 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:06,163 INFO spawned: 'WebShop' with pid 6643
+2016-03-06 19:35:06,180 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:06,182 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:07,200 INFO spawned: 'WebShop' with pid 6644
+2016-03-06 19:35:07,225 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:07,228 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:08,245 INFO spawned: 'WebShop' with pid 6645
+2016-03-06 19:35:08,270 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:08,275 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:09,282 INFO spawned: 'WebShop' with pid 6646
+2016-03-06 19:35:09,303 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:09,306 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:10,318 INFO spawned: 'WebShop' with pid 6647
+2016-03-06 19:35:10,343 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:10,346 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:11,352 INFO spawned: 'WebShop' with pid 6648
+2016-03-06 19:35:11,379 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:11,383 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:12,387 INFO spawned: 'WebShop' with pid 6649
+2016-03-06 19:35:12,400 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:12,403 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:13,410 INFO spawned: 'WebShop' with pid 6650
+2016-03-06 19:35:13,436 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:13,440 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:14,447 INFO spawned: 'WebShop' with pid 6651
+2016-03-06 19:35:14,473 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:14,479 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:15,485 INFO spawned: 'WebShop' with pid 6652
+2016-03-06 19:35:15,509 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:15,511 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:16,516 INFO spawned: 'WebShop' with pid 6653
+2016-03-06 19:35:16,539 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:16,543 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:17,549 INFO spawned: 'WebShop' with pid 6654
+2016-03-06 19:35:17,575 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:17,578 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:18,582 INFO spawned: 'WebShop' with pid 6655
+2016-03-06 19:35:18,591 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:18,594 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:19,601 INFO spawned: 'WebShop' with pid 6656
+2016-03-06 19:35:19,622 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:19,625 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:20,631 INFO spawned: 'WebShop' with pid 6657
+2016-03-06 19:35:20,657 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:20,661 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:21,670 INFO spawned: 'WebShop' with pid 6658
+2016-03-06 19:35:21,696 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:21,705 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:22,717 INFO spawned: 'WebShop' with pid 6659
+2016-03-06 19:35:22,743 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:22,746 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:23,761 INFO spawned: 'WebShop' with pid 6660
+2016-03-06 19:35:23,786 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:23,789 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:24,796 INFO spawned: 'WebShop' with pid 6661
+2016-03-06 19:35:24,821 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:24,826 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:25,840 INFO spawned: 'WebShop' with pid 6662
+2016-03-06 19:35:25,866 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:25,870 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:26,885 INFO spawned: 'WebShop' with pid 6663
+2016-03-06 19:35:26,910 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:26,914 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:27,931 INFO spawned: 'WebShop' with pid 6664
+2016-03-06 19:35:27,958 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:27,961 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:28,976 INFO spawned: 'WebShop' with pid 6665
+2016-03-06 19:35:29,001 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:29,005 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:30,021 INFO spawned: 'WebShop' with pid 6666
+2016-03-06 19:35:30,047 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:30,051 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:31,071 INFO spawned: 'WebShop' with pid 6667
+2016-03-06 19:35:31,096 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:31,100 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:32,117 INFO spawned: 'WebShop' with pid 6668
+2016-03-06 19:35:32,142 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:32,146 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:33,161 INFO spawned: 'WebShop' with pid 6669
+2016-03-06 19:35:33,189 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:33,191 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:34,210 INFO spawned: 'WebShop' with pid 6670
+2016-03-06 19:35:34,235 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:34,238 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:35,256 INFO spawned: 'WebShop' with pid 6671
+2016-03-06 19:35:35,280 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:35,283 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:36,299 INFO spawned: 'WebShop' with pid 6672
+2016-03-06 19:35:36,308 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:36,311 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:37,318 INFO spawned: 'WebShop' with pid 6673
+2016-03-06 19:35:37,344 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:37,348 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:38,363 INFO spawned: 'WebShop' with pid 6674
+2016-03-06 19:35:38,390 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:38,394 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:39,399 INFO spawned: 'WebShop' with pid 6675
+2016-03-06 19:35:39,415 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:39,417 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:40,425 INFO spawned: 'WebShop' with pid 6676
+2016-03-06 19:35:40,451 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:40,455 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:41,470 INFO spawned: 'WebShop' with pid 6677
+2016-03-06 19:35:41,495 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:41,502 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:42,505 INFO spawned: 'WebShop' with pid 6678
+2016-03-06 19:35:42,515 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:42,517 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:43,525 INFO spawned: 'WebShop' with pid 6679
+2016-03-06 19:35:43,551 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:43,555 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:44,574 INFO spawned: 'WebShop' with pid 6680
+2016-03-06 19:35:44,599 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:44,604 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:45,610 INFO spawned: 'WebShop' with pid 6681
+2016-03-06 19:35:45,633 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:45,636 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:46,641 INFO spawned: 'WebShop' with pid 6682
+2016-03-06 19:35:46,668 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:46,672 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:47,686 INFO spawned: 'WebShop' with pid 6683
+2016-03-06 19:35:47,711 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:47,715 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:48,734 INFO spawned: 'WebShop' with pid 6684
+2016-03-06 19:35:48,762 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:48,766 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:49,780 INFO spawned: 'WebShop' with pid 6685
+2016-03-06 19:35:49,804 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:49,808 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:50,825 INFO spawned: 'WebShop' with pid 6686
+2016-03-06 19:35:50,850 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:50,853 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:51,873 INFO spawned: 'WebShop' with pid 6687
+2016-03-06 19:35:51,898 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:51,900 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:52,917 INFO spawned: 'WebShop' with pid 6688
+2016-03-06 19:35:52,942 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:52,945 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:53,963 INFO spawned: 'WebShop' with pid 6689
+2016-03-06 19:35:53,990 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:53,994 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:54,996 INFO spawned: 'WebShop' with pid 6692
+2016-03-06 19:35:55,006 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:55,009 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:56,014 INFO spawned: 'WebShop' with pid 6693
+2016-03-06 19:35:56,039 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:56,042 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:57,049 INFO spawned: 'WebShop' with pid 6694
+2016-03-06 19:35:57,075 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:57,079 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:58,086 INFO spawned: 'WebShop' with pid 6695
+2016-03-06 19:35:58,107 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:58,110 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:35:59,117 INFO spawned: 'WebShop' with pid 6696
+2016-03-06 19:35:59,145 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:35:59,149 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:00,155 INFO spawned: 'WebShop' with pid 6699
+2016-03-06 19:36:00,169 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:00,171 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:01,178 INFO spawned: 'WebShop' with pid 6700
+2016-03-06 19:36:01,200 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:01,203 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:02,208 INFO spawned: 'WebShop' with pid 6701
+2016-03-06 19:36:02,217 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:02,220 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:03,227 INFO spawned: 'WebShop' with pid 6702
+2016-03-06 19:36:03,262 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:03,265 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:04,293 INFO spawned: 'WebShop' with pid 6703
+2016-03-06 19:36:04,303 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:04,306 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:05,309 INFO spawned: 'WebShop' with pid 6750
+2016-03-06 19:36:05,328 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:05,335 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:06,341 INFO spawned: 'WebShop' with pid 6764
+2016-03-06 19:36:06,358 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:06,362 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:07,365 INFO spawned: 'WebShop' with pid 6766
+2016-03-06 19:36:07,376 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:07,379 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:08,384 INFO spawned: 'WebShop' with pid 6767
+2016-03-06 19:36:08,411 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:08,415 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:09,432 INFO spawned: 'WebShop' with pid 6771
+2016-03-06 19:36:09,457 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:09,463 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:10,466 INFO spawned: 'WebShop' with pid 6774
+2016-03-06 19:36:10,478 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:10,480 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:11,484 INFO spawned: 'WebShop' with pid 6775
+2016-03-06 19:36:11,506 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:11,509 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:12,512 INFO spawned: 'WebShop' with pid 6776
+2016-03-06 19:36:12,521 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:12,524 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:13,531 INFO spawned: 'WebShop' with pid 6777
+2016-03-06 19:36:13,556 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:13,561 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:14,568 INFO spawned: 'WebShop' with pid 6778
+2016-03-06 19:36:14,595 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:14,599 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:15,602 INFO spawned: 'WebShop' with pid 6780
+2016-03-06 19:36:15,621 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:15,626 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:16,632 INFO spawned: 'WebShop' with pid 6781
+2016-03-06 19:36:16,662 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:16,667 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:17,675 INFO spawned: 'WebShop' with pid 6782
+2016-03-06 19:36:17,701 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:17,706 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:18,712 INFO spawned: 'WebShop' with pid 6783
+2016-03-06 19:36:18,735 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:18,741 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:19,749 INFO spawned: 'WebShop' with pid 6784
+2016-03-06 19:36:19,772 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:19,775 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:20,782 INFO spawned: 'WebShop' with pid 6785
+2016-03-06 19:36:20,809 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:20,814 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:21,827 INFO spawned: 'WebShop' with pid 6786
+2016-03-06 19:36:21,861 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:21,865 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:22,873 INFO spawned: 'WebShop' with pid 6787
+2016-03-06 19:36:22,901 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:22,908 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:23,915 INFO spawned: 'WebShop' with pid 6788
+2016-03-06 19:36:23,941 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:23,944 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:24,949 INFO spawned: 'WebShop' with pid 6789
+2016-03-06 19:36:24,960 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:24,963 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:25,966 INFO spawned: 'WebShop' with pid 6790
+2016-03-06 19:36:25,983 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:25,990 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:26,996 INFO spawned: 'WebShop' with pid 6791
+2016-03-06 19:36:27,025 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:27,028 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:28,032 INFO spawned: 'WebShop' with pid 6792
+2016-03-06 19:36:28,043 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:28,045 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:29,052 INFO spawned: 'WebShop' with pid 6793
+2016-03-06 19:36:29,080 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:29,084 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:30,092 INFO spawned: 'WebShop' with pid 6794
+2016-03-06 19:36:30,116 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:30,119 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:31,123 INFO spawned: 'WebShop' with pid 6795
+2016-03-06 19:36:31,132 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:31,135 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:32,140 INFO spawned: 'WebShop' with pid 6796
+2016-03-06 19:36:32,177 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:32,183 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:33,190 INFO spawned: 'WebShop' with pid 6797
+2016-03-06 19:36:33,237 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:33,243 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:34,252 INFO spawned: 'WebShop' with pid 6798
+2016-03-06 19:36:34,293 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:34,297 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:35,302 INFO spawned: 'WebShop' with pid 6799
+2016-03-06 19:36:35,331 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:35,334 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:36,350 INFO spawned: 'WebShop' with pid 6800
+2016-03-06 19:36:36,367 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:36,371 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:37,381 INFO spawned: 'WebShop' with pid 6801
+2016-03-06 19:36:37,411 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:37,414 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:38,429 INFO spawned: 'WebShop' with pid 6802
+2016-03-06 19:36:38,458 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:38,461 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:39,465 INFO spawned: 'WebShop' with pid 6803
+2016-03-06 19:36:39,488 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:39,495 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:40,503 INFO spawned: 'WebShop' with pid 6804
+2016-03-06 19:36:40,534 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:40,536 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:41,541 INFO spawned: 'WebShop' with pid 6805
+2016-03-06 19:36:41,565 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:41,568 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:42,576 INFO spawned: 'WebShop' with pid 6806
+2016-03-06 19:36:42,597 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:42,600 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:43,606 INFO spawned: 'WebShop' with pid 6807
+2016-03-06 19:36:43,629 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:43,632 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:44,637 INFO spawned: 'WebShop' with pid 6808
+2016-03-06 19:36:44,661 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:44,664 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:45,667 INFO spawned: 'WebShop' with pid 6809
+2016-03-06 19:36:45,678 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:45,680 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:46,688 INFO spawned: 'WebShop' with pid 6810
+2016-03-06 19:36:46,716 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:46,722 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:47,728 INFO spawned: 'WebShop' with pid 6811
+2016-03-06 19:36:47,758 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:47,763 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:48,771 INFO spawned: 'WebShop' with pid 6812
+2016-03-06 19:36:48,800 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:48,806 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:49,812 INFO spawned: 'WebShop' with pid 6813
+2016-03-06 19:36:49,837 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:49,841 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:50,847 INFO spawned: 'WebShop' with pid 6814
+2016-03-06 19:36:50,888 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:50,894 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:51,898 INFO spawned: 'WebShop' with pid 6815
+2016-03-06 19:36:51,926 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:51,929 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:52,935 INFO spawned: 'WebShop' with pid 6816
+2016-03-06 19:36:52,964 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:52,969 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:53,976 INFO spawned: 'WebShop' with pid 6817
+2016-03-06 19:36:54,004 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:54,009 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:55,018 INFO spawned: 'WebShop' with pid 6818
+2016-03-06 19:36:55,043 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:55,046 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:56,053 INFO spawned: 'WebShop' with pid 6819
+2016-03-06 19:36:56,083 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:56,088 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:57,096 INFO spawned: 'WebShop' with pid 6820
+2016-03-06 19:36:57,120 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:57,123 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:58,127 INFO spawned: 'WebShop' with pid 6821
+2016-03-06 19:36:58,139 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:58,142 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:36:59,150 INFO spawned: 'WebShop' with pid 6822
+2016-03-06 19:36:59,174 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:36:59,180 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:37:00,194 INFO spawned: 'WebShop' with pid 6823
+2016-03-06 19:37:00,220 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:37:00,224 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:37:01,245 INFO spawned: 'WebShop' with pid 6824
+2016-03-06 19:37:01,273 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:37:01,277 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:37:02,289 INFO spawned: 'WebShop' with pid 6825
+2016-03-06 19:37:02,317 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:37:02,322 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:37:03,329 INFO spawned: 'WebShop' with pid 6826
+2016-03-06 19:37:03,338 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:37:03,340 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:37:04,353 INFO spawned: 'WebShop' with pid 6827
+2016-03-06 19:37:04,378 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:37:04,380 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:37:05,391 INFO spawned: 'WebShop' with pid 6828
+2016-03-06 19:37:05,410 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:37:05,413 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:37:06,418 INFO spawned: 'WebShop' with pid 6829
+2016-03-06 19:37:06,434 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:37:06,437 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:37:07,443 INFO spawned: 'WebShop' with pid 6830
+2016-03-06 19:37:07,469 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:37:07,474 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:37:08,480 INFO spawned: 'WebShop' with pid 6831
+2016-03-06 19:37:08,507 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:37:08,511 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:37:09,518 INFO spawned: 'WebShop' with pid 6832
+2016-03-06 19:37:09,541 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:37:09,544 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:37:10,550 INFO spawned: 'WebShop' with pid 6834
+2016-03-06 19:37:10,578 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:37:10,583 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:37:11,590 INFO spawned: 'WebShop' with pid 6835
+2016-03-06 19:37:11,617 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:37:11,623 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:37:12,630 INFO spawned: 'WebShop' with pid 6836
+2016-03-06 19:37:12,654 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:37:12,657 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:37:13,664 INFO spawned: 'WebShop' with pid 6837
+2016-03-06 19:37:13,701 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:37:13,704 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:37:14,711 INFO spawned: 'WebShop' with pid 6840
+2016-03-06 19:37:14,737 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:37:14,741 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:37:15,748 INFO spawned: 'WebShop' with pid 6841
+2016-03-06 19:37:15,774 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:37:15,777 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:37:16,784 INFO spawned: 'WebShop' with pid 6842
+2016-03-06 19:37:16,812 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:37:16,817 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:37:17,825 INFO spawned: 'WebShop' with pid 6843
+2016-03-06 19:37:17,848 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:37:17,851 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:37:18,858 INFO spawned: 'WebShop' with pid 6844
+2016-03-06 19:37:18,882 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:37:18,886 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:37:19,894 INFO spawned: 'WebShop' with pid 6845
+2016-03-06 19:37:19,920 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:37:19,923 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:37:20,941 INFO spawned: 'WebShop' with pid 6846
+2016-03-06 19:37:20,966 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:37:20,968 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:37:21,974 INFO spawned: 'WebShop' with pid 6848
+2016-03-06 19:37:22,002 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:37:22,006 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:37:23,012 INFO spawned: 'WebShop' with pid 6850
+2016-03-06 19:37:23,035 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:37:23,037 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:37:24,045 INFO spawned: 'WebShop' with pid 6852
+2016-03-06 19:37:24,065 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:37:24,069 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:37:25,074 INFO spawned: 'WebShop' with pid 6854
+2016-03-06 19:37:25,102 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:37:25,104 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:37:26,112 INFO spawned: 'WebShop' with pid 6855
+2016-03-06 19:37:26,139 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:37:26,144 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:37:27,150 INFO spawned: 'WebShop' with pid 6856
+2016-03-06 19:37:27,175 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:37:27,178 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:37:28,184 INFO spawned: 'WebShop' with pid 6857
+2016-03-06 19:37:28,203 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:37:28,207 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:37:29,214 INFO spawned: 'WebShop' with pid 6858
+2016-03-06 19:37:29,240 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:37:29,243 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:37:30,249 INFO spawned: 'WebShop' with pid 6859
+2016-03-06 19:37:30,275 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:37:30,280 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:37:31,287 INFO spawned: 'WebShop' with pid 6860
+2016-03-06 19:37:31,313 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:37:31,315 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:37:32,322 INFO spawned: 'WebShop' with pid 6861
+2016-03-06 19:37:32,350 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:37:32,354 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:37:33,362 INFO spawned: 'WebShop' with pid 6862
+2016-03-06 19:37:33,385 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:37:33,387 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:37:34,394 INFO spawned: 'WebShop' with pid 6863
+2016-03-06 19:37:34,419 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:37:34,423 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:37:35,439 INFO spawned: 'WebShop' with pid 6864
+2016-03-06 19:37:35,465 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:37:35,469 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:37:36,474 INFO spawned: 'WebShop' with pid 6865
+2016-03-06 19:37:36,489 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:37:36,492 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:37:37,499 INFO spawned: 'WebShop' with pid 6866
+2016-03-06 19:37:37,523 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:37:37,526 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:37:38,533 INFO spawned: 'WebShop' with pid 6867
+2016-03-06 19:37:38,559 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:37:38,563 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:37:39,567 INFO spawned: 'WebShop' with pid 6868
+2016-03-06 19:37:39,576 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 19:37:39,579 INFO exited: WebShop (exit status 1; not expected)
+2016-03-06 19:37:40,585 INFO spawned: 'WebShop' with pid 6869
+2016-03-06 19:37:40,617 INFO success: WebShop entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2016-03-06 22:20:32,834 WARN received SIGTERM indicating exit request
+2016-03-06 22:20:32,835 INFO waiting for WebShop to die
+2016-03-06 22:20:33,020 WARN killing 'WebShop' (6869) with SIGKILL
+2016-03-06 22:20:33,021 WARN killing 'WebShop' (6869) with SIGKILL
+2016-03-06 22:20:33,021 WARN killing 'WebShop' (6869) with SIGKILL
+2016-03-06 22:20:33,021 INFO stopped: WebShop (exit status 30)

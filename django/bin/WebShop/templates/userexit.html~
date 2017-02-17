@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<title>用户已经存在页</title>
+{% load staticfiles %}
+<link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" type="text/css">
+<link href="{% static 'css/webshop.css' %}" rel="stylesheet" type="text/css">
+</head>
+
+<body class="alert-warning">
+
+<div class="container alert-info logscu">
+<h1>此邮箱已经被注册，请选择其它邮箱</h1><br>
+<a href="/register/"><button class="btn btn-success btn-lg"><i class="glyphicon glyphicon-arrow-left"></i>返回注册页面重新注册</button></a>
+</div>
+
+
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+<script src="{% static 'js/webshop.js' %}"></script>
+</body>
+</html>

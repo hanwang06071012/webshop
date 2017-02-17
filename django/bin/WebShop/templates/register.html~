@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>注册帐号页</title>
+{% load staticfiles %}
+<link href="{% static "css/bootstrap.min.css" %}" rel="stylesheet" type="text/css">
+</head>
+<body class="btn-info">
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+
+<div class="container btn-warning">
+
+<div>&nbsp;</div>
+<h1 class=" btn btn-group-lg btn-default col-xs-offset-6">请填写注册信息</h1>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+
+<form class="form-horizontal" role="form" action="/registerInfo/" method="get">
+  <div class="form-group">
+    <label for="firstname" class="col-sm-2 control-label">注册姓名</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="registerName" name="userName" 
+            placeholder="请输入姓名">
+    </div>
+  </div>
+  
+  <div class="form-group">
+    <label for="lastname" class="col-sm-2 control-label">注册邮箱</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="registerMail" name="userMail" 
+            placeholder="请输入注册邮箱">
+    </div>
+  </div>
+  
+   <div class="form-group">
+    <label for="inputPassword" class="col-sm-2 control-label">注册密码</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="fristinputPwd" name="fristPwd" 
+         placeholder="请输入密码">
+    </div>
+  </div>
+  
+  <div class="form-group">
+    <label for="inputPasswordsed" class="col-sm-2 control-label">确认密码</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="secondinputPwd" name="secondPwd" 
+         placeholder="请再次输入密码">
+    </div>
+  </div>
+  
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox">
+          我接受商业约定</label>
+          <p>商业约定是一种诚信的约定，我信守商业诚们，为商业服务一、在全企业范围内广泛宣传 “诚信为本”的理念，在全体员工中牢固树立诚信意识，以诚信态度对待企业各相关方。    二、严格执行国家有关消费者权益、产品质量、价格、竞争等相关法律法规和行业规范，不以任何方式排除或者限制消费者合法权利。    三、杜绝促销活动中的价格欺诈和虚假宣传广告，保证各类商品、服务信息的真实性，不误导、欺骗消费者，确保公平交易。    四、建立健全商品进货检查验证制度，抵制假冒伪劣商品进入流通；采取科学有效的措施，维护商品品质，保证销售的商品质量。</p>
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-success col-xs-offset-5">免费注册</button>
+    </div>
+  </div>
+</form>
+</div>
+<script src="{% static "jquery-2.1.4/jquery.min.js" %}"></script>
+<script src="{% static "js/bootstrap.min.js" %}"></script>
+</body>
+</html>
